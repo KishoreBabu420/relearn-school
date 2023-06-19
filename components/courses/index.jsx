@@ -26,10 +26,10 @@ const Courses = () => {
       id='courses'
     >
       <div className='text-center'>
-        <h2 className='mb-5 text-2xl font-bold sm:text-3xl'>
-          Our Top <span className='text-Teal'>Categories</span>
+        <h2 className='mb-5 text-2xl font-bold sm:text-3xl text-primary'>
+          Our Top <span className='text-accent'>Categories</span>
         </h2>
-        <p className='text-sm text-gray leading-7 max-w-[700px] mx-auto'>
+        <p className='text-xl text-primary leading-7 max-w-[875px] mx-auto '>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
           tempora illo laborum ex cupiditate tenetur doloribus non velit atque
           amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
@@ -51,7 +51,9 @@ const Courses = () => {
           );
         })}
       </motion.div>
-      <div className='mt-32 text-xl font-bold'>Most Popular Courses</div>
+      <h3 className='mt-32 text-2xl font-bold text-secondary'>
+        Most Popular Courses
+      </h3>
       <div className='relative w-full mt-12 overflow-x-hidden'>
         <div className='flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[480%] animate-slide'>
           {courses.map((course) => {

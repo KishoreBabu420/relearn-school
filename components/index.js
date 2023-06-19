@@ -6,8 +6,8 @@ import About from './about';
 
 import Courses from './courses/';
 
-import Instructor from './instructor/';
+import Faq from './faq/';
 
 import Footer from './footer/';
 
-export { Navbar, Hero, About, Courses, Instructor, Footer };
+export { Navbar, Hero, About, Courses, Faq, Footer };

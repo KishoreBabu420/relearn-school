@@ -5,7 +5,7 @@ const About = () => {
       className='section'
       id='about'
     >
-      <h2 className='mb-5 text-2xl font-bold text-center sm:text-4xl text-primary'>
+      <h2 className='mb-5 text-2xl font-bold text-center sm:text-3xl text-primary'>
         Why <span className='text-accent'>Relearn School</span>
       </h2>
       <div className='grid gap-8 md:grid-cols-2 place-items-center'>

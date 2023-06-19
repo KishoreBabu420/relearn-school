@@ -12,11 +12,11 @@ const Categories = ({ icon, category }) => {
       whileHover={{ scale: 1.1 }}
       className='flex flex-col items-center gap-4 p-8 bg-white rounded-md'
     >
-      <div className='text-4xl text-Teal'>{icon}</div>
-      <div>{category}</div>
+      <div className='text-4xl text-accent'>{icon}</div>
+      <h3 className='font-semibold text-primary'>{category}</h3>
       <a
         href=''
-        className='text-sm text-gray'
+        className='text-sm text-secondary'
       >
         View More
       </a>

@@ -9,11 +9,12 @@ const Hero = () => {
             Robotics & AI Revolution
           </div>
 
-          <div className='sm:text-[2.5rem] text-[1.825rem] font-bold text-primary'>
-            Make your Child <br /> Future Ready by Joining <br /> Robotics & AI
-            Revolution
+          <div className='sm:text-[2.25rem] text-[1.875rem] font-extrabold text-primary'>
+            Make your Child Future Ready
+            <br />
+            Joining Robotics & AI Revolution <br /> with Relearn School
           </div>
-          <p className='max-w-xl text-xl leading-7 text-gray-400'>
+          <p className='max-w-xl text-[1rem] leading-7 text-primary'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
             hic quibusdam sit numquam dolor, suscipit dignissimos nulla
             consequuntur? Ea fugit repudiandae libero deleniti aliquam.

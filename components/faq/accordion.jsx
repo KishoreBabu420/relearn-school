@@ -10,8 +10,10 @@ const Accordion = ({ id, title }) => {
   };
   return (
     <div className='pb-8'>
-      <div className='flex items-center justify-between'>
-        <div className='text-base font-bold sm:text-xl'>{title}</div>
+      <div className='flex items-center justify-between px-3 py-2 bg-white rounded shadow'>
+        <div className='text-base font-bold sm:text-xl text-primary'>
+          {title}
+        </div>
         <BsChevronDown
           className={`${
             id === activeIndex ? 'rotate-180' : 'rotate-0'
@@ -29,7 +31,7 @@ const Accordion = ({ id, title }) => {
             style={{ overflow: 'hidden' }}
             className='pt-4'
           >
-            <p className='text-sm leading-7 text-gray'>
+            <p className='text-xl leading-7 text-primary'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eum
               beatae porro voluptatum aspernatur, id nesciunt reiciendis maxime
               unde necessitatibus illum accusamus mollitia incidunt qui nisi
