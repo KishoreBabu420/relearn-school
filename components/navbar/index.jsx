@@ -42,7 +42,10 @@ const Navbar = () => {
               );
             })}
           </ul>
-          <button className='px-6 py-3 text-sm font-bold text-white border border-solid rounded-lg bg-primary border-primary'>
+          <button
+            className='px-6 py-3 text-sm font-bold text-white border border-solid rounded-lg bg-primary border-primary'
+            onClick={() => window.contactForm.showModal()}
+          >
             Book a Free Session
           </button>
           {toggle && (

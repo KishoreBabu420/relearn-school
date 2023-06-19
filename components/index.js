@@ -11,5 +11,6 @@ import Faq from './faq/';
 import Footer from './footer/';
 
 import Pricing from './pricing/';
+import Contact from './contact/form';
 
-export { Navbar, Hero, About, Courses, Pricing, Faq, Footer };
+export { Navbar, Hero, About, Courses, Pricing, Faq, Footer, Contact };
