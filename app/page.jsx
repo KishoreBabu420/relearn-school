@@ -1,5 +1,17 @@
+'use client';
+
+import { Hero, About, Courses, Instructor } from '@components';
+import { Fragment } from 'react';
+
 const Home = () => {
-  return <div>Hello</div>;
+  return (
+    <Fragment>
+      <Hero />
+      <About />
+      <Courses />
+      <Instructor />
+    </Fragment>
+  );
 };
 
 export default Home;
