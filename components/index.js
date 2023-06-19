@@ -10,4 +10,6 @@ import Faq from './faq/';
 
 import Footer from './footer/';
 
-export { Navbar, Hero, About, Courses, Faq, Footer };
+import Pricing from './pricing/';
+
+export { Navbar, Hero, About, Courses, Pricing, Faq, Footer };

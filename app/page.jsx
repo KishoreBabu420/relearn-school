@@ -1,6 +1,6 @@
 'use client';
 
-import { Hero, About, Courses, Faq } from '@components';
+import { Hero, About, Courses, Faq, Pricing } from '@components';
 import { Fragment } from 'react';
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
       <Hero />
       <About />
       <Courses />
+      <Pricing />
       <Faq />
     </Fragment>
   );
