@@ -32,9 +32,9 @@ const Hero = () => {
         </div>
         <div className='md:w-[50%] mt-5 md:mt-0'>
           <Image
-            src='/assets/images/hero.jpg'
+            src='/assets/images/hero.webp'
             alt='hero'
-            width={0}
+            width={640}
             height={0}
             style={{ width: '100%', height: 'auto' }}
           />

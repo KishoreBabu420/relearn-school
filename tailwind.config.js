@@ -22,7 +22,7 @@ module.exports = {
 
   extend: {
     colors: {
-      solitude: '#e9e9ea',
+      solitude: '#e9e9ff',
     },
   },
   screens: {
