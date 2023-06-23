@@ -19,7 +19,19 @@ html {
   }
 
   .btn-custom {
-    @apply px-4 py-3 text-lg font-bold border border-solid rounded-lg capitalize;
+    @apply px-4 py-2 text-lg font-bold border border-solid rounded-lg capitalize transition-all duration-700 ease-in-out;
+  }
+
+  .btn-custom-main {
+    @apply bg-accent border-accent text-primary hover:text-secondary hover:bg-primary hover:border-primary hover:-translate-y-1;
+  }
+
+  .btn-custom-secondary {
+    @apply bg-accent border-accent text-primary;
+  }
+
+  .btn-custom-outline {
+    @apply text-primary btn-custom border-primary hover:bg-primary hover:text-secondary;
   }
   .animate-slide:hover {
     -webkit-animation-play-state: paused;

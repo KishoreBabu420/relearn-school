@@ -20,9 +20,7 @@ const Mission = () => {
             eum, explicabo quos eos magni vel corporis voluptatibus, inventore
             doloremque aliquam pariatur recusandae.
           </p>
-          <button className='px-6 py-3 text-sm font-bold border border-solid rounded-lg border-primary text-primary'>
-            Know More
-          </button>
+          <button className='btn-custom btn-custom-main'>Know More</button>
         </div>
         <div>
           <Image

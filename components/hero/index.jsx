@@ -9,10 +9,10 @@ const Hero = () => {
             Robotics & AI Revolution
           </div>
 
-          <div className='sm:text-[2.25rem] text-[1.875rem] font-extrabold text-primary'>
-            Make your Child Future Ready
+          <div className='sm:text-[2.25rem] text-[1.875rem] font-extrabold text-primary my-4'>
+            Get Future Ready Joining
             <br />
-            Joining Robotics & AI Revolution <br /> with Relearn School
+            Robotics & AI Revolution <br /> with Relearn School
           </div>
           <p className='max-w-xl text-[1rem] leading-7 text-primary'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
@@ -21,11 +21,11 @@ const Hero = () => {
             Necessitatibus?
           </p>
 
-          <div className='mt-6'>
-            <button className='px-6 py-3 mr-4 text-sm font-bold text-white rounded-lg bg-primary'>
+          <div className='flex gap-2 mt-6'>
+            <button className='btn-custom btn-custom-main'>
               Book a Free Session
             </button>
-            <button className='px-6 py-3 text-sm font-bold border border-solid rounded-lg border-primary'>
+            <button className='btn-custom btn-custom-outline'>
               Contact Us
             </button>
           </div>
@@ -40,10 +40,10 @@ const Hero = () => {
           />
         </div>
       </div>
-      <p className='my-4 text-xl text-center'>
+      <p className='my-6 text-xl text-center'>
         We are accredited and recognized by top academic and IT institutions
       </p>
-      <div className='flex flex-wrap items-center justify-center gap-8 p-2'>
+      <div className='flex flex-wrap items-center justify-center w-4/5 gap-8 px-5 mx-auto shadow-xl rounded-xl py-7 bg-info'>
         <div className='w-48'>
           <Image
             src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
@@ -51,15 +51,7 @@ const Hero = () => {
             width={144}
             height={0}
             style={{ width: '100%', height: 'auto' }}
-          />
-        </div>
-        <div className='w-48'>
-          <Image
-            src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
-            alt='partner'
-            width={144}
-            height={0}
-            style={{ width: '100%', height: 'auto' }}
+            className='rounded-lg shadow-lg'
           />
         </div>
         <div className='w-48'>

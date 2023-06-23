@@ -1,8 +1,3 @@
-import { FiPenTool } from 'react-icons/fi';
-import { FaLaptopCode } from 'react-icons/fa';
-import { BsBarChartLine } from 'react-icons/bs';
-import { MdOutlineScience } from 'react-icons/md';
-
 export const navLinks = [
   {
     id: 1,
@@ -24,23 +19,21 @@ export const navLinks = [
 export const categories = [
   {
     id: 1,
-    icon: <FiPenTool />,
-    category: 'Design',
+    image: '/assets/images/course.jpg',
+    category: 'Robotics',
+    description: 'lorem ipsum dolor asum enes solar beam',
   },
   {
     id: 2,
-    icon: <FaLaptopCode />,
-    category: 'Development',
+    image: '/assets/images/course.jpg',
+    category: 'Coding',
+    description: 'lorem ipsum dolor asum enes solar beam',
   },
   {
     id: 3,
-    icon: <BsBarChartLine />,
-    category: 'Business',
-  },
-  {
-    id: 4,
-    icon: <MdOutlineScience />,
-    category: 'Science',
+    image: '/assets/images/course.jpg',
+    category: 'Mathematics',
+    description: 'lorem ipsum dolor asum enes solar beam',
   },
 ];
 

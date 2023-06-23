@@ -43,7 +43,7 @@ const Navbar = () => {
             })}
           </ul>
           <button
-            className='text-primary btn-custom bg-accent border-accent'
+            className='btn-custom btn-custom-main'
             onClick={() => window.contactForm.showModal()}
           >
             Book a Free Session
