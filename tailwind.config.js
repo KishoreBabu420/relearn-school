@@ -36,13 +36,11 @@ module.exports = {
         mytheme: {
           primary: '#1c2042',
 
-          secondary: '#fbbe00',
+          secondary: '#F9F9F9',
 
-          accent: '#1fb2a6',
+          accent: '#FBB400',
 
           neutral: '#2a323c',
-
-          'base-100': '#1d232a',
 
           info: '#3abff8',
 

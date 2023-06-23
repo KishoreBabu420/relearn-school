@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 body {
   min-height: 100vh;
-  background-color: #e9e9ea;
+  background-color: #f9f9f9;
 }
 
 html {
@@ -16,6 +16,10 @@ html {
 @layer base {
   .section {
     @apply container mx-auto py-12 px-6 min-h-[60vh];
+  }
+
+  .btn-custom {
+    @apply px-4 py-3 text-lg font-bold border border-solid rounded-lg capitalize;
   }
   .animate-slide:hover {
     -webkit-animation-play-state: paused;

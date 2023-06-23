@@ -1,11 +1,10 @@
 'use client';
 
-import { categories, courses } from '@/constants/';
+import { categories } from '@/constants/';
 import Categories from './categories';
-import Course from './course';
 import { motion } from 'framer-motion';
 
-const Courses = () => {
+const CoursesSection = () => {
   const container = {
     hidden: {
       opacity: 0,
@@ -21,13 +20,13 @@ const Courses = () => {
     },
   };
   return (
-    <div
+    <section
       className='section'
       id='courses'
     >
       <div className='text-center'>
         <h2 className='mb-5 text-2xl font-bold sm:text-3xl text-primary'>
-          Our Top <span className='text-accent'>Categories</span>
+          Our Top <span className='text-accent'>Courses</span>
         </h2>
         <p className='text-xl text-primary leading-7 max-w-[875px] mx-auto '>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
@@ -51,23 +50,8 @@ const Courses = () => {
           );
         })}
       </motion.div>
-      <h3 className='mt-32 text-2xl font-bold text-secondary'>
-        Most Popular Courses
-      </h3>
-      <div className='relative w-full mt-12 overflow-x-hidden'>
-        <div className='flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[480%] animate-slide'>
-          {courses.map((course) => {
-            return (
-              <Course
-                key={course.id}
-                {...course}
-              />
-            );
-          })}
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 
-export default Courses;
+export default CoursesSection;

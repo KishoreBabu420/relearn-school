@@ -10,7 +10,7 @@ import { navLinks } from '@/constants';
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className='fixed top-0 left-0 z-50 w-full bg-white shadow'>
+    <nav className='fixed top-0 left-0 z-50 w-full shadow bg-secondary'>
       <div>
         <div className='container flex items-center justify-between px-2 py-4 mx-auto'>
           <div className='flex items-center gap-4'>
@@ -20,13 +20,13 @@ const Navbar = () => {
             />
             <a
               href='/'
-              className='w-[130px]'
+              className='w-[120px]'
             >
               <Image
                 src='/assets/images/logo.webp'
                 alt='relearn school logo'
                 style={{ width: '100%', height: 'auto' }}
-                width={130}
+                width={120}
                 height={0}
                 priority
               />
@@ -43,7 +43,7 @@ const Navbar = () => {
             })}
           </ul>
           <button
-            className='px-6 py-3 text-sm font-bold text-white border border-solid rounded-lg bg-primary border-primary'
+            className='text-primary btn-custom bg-accent border-accent'
             onClick={() => window.contactForm.showModal()}
           >
             Book a Free Session
