@@ -4,7 +4,7 @@ import {
   Hero,
   Mission,
   About,
-  Courses,
+  CoursesSection,
   Faq,
   Pricing,
   Contact,
@@ -16,8 +16,8 @@ const Home = () => {
     <Fragment>
       <Hero />
       <Mission />
+      <CoursesSection />
       <About />
-      <Courses />
       <Pricing />
       <Faq />
 
