@@ -25,6 +25,9 @@ html {
   .btn-custom-main {
     @apply bg-accent border-accent text-primary hover:text-secondary hover:bg-primary hover:border-primary hover:-translate-y-1;
   }
+  .btn-custom-primary {
+    @apply bg-primary border-primary text-secondary hover:bg-secondary hover:border-secondary hover:text-primary hover:-translate-y-1;
+  }
 
   .btn-custom-secondary {
     @apply bg-accent border-accent text-primary;

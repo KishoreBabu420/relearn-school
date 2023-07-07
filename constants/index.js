@@ -21,19 +21,21 @@ export const categories = [
     id: 1,
     image: '/assets/images/course.jpg',
     category: 'Robotics',
-    description: 'lorem ipsum dolor asum enes solar beam',
+    description: `Children learn about engineering, technology, and programming while exploring the world of robots. Building their own robots through practical activities, sharpening their analytical and problem-solving skills.`,
   },
   {
     id: 2,
     image: '/assets/images/course.jpg',
     category: 'Coding',
-    description: 'lorem ipsum dolor asum enes solar beam',
+    description:
+      'Re-Learn teaches Coding for Kids and introduces children to computer programming, teaching them the basics of coding through interactive activities and projects that foster creativity and problem-solving skills.',
   },
   {
     id: 3,
     image: '/assets/images/course.jpg',
     category: 'Mathematics',
-    description: 'lorem ipsum dolor asum enes solar beam',
+    description:
+      'Mathematics is an important life skill which helps children in developing their cognitive abilities. We teach children mental shortcuts and calculation techniques to solve mathematical problems quickly and effectively.',
   },
 ];
 

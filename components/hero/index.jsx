@@ -5,21 +5,23 @@ const Hero = () => {
     <header className='pt-[8rem] section text-primary'>
       <div className='items-center justify-center gap-10 md:flex'>
         <div>
-          <div className='mb-4 text-xl font-bold text-secondary'>
-            Robotics & AI Revolution
-          </div>
+          <span className='px-4 py-2 mb-4 text-xl font-black rounded-lg text-accent bg-primary'>
+            Robotics & Coding
+          </span>
 
-          <div className='sm:text-[2.25rem] text-[1.875rem] font-extrabold text-primary my-4'>
-            Get Future Ready Joining
+          <h1 className='sm:text-[2rem] text-[1.75rem] font-extrabold text-primary my-4'>
+            Make your Child Future Ready
             <br />
-            Robotics & AI Revolution <br /> with Relearn School
-          </div>
-          <p className='max-w-xl text-[1rem] leading-7 text-primary'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            hic quibusdam sit numquam dolor, suscipit dignissimos nulla
-            consequuntur? Ea fugit repudiandae libero deleniti aliquam.
-            Necessitatibus?
-          </p>
+            Learning Robotics and Coding
+            <br />
+            with ReLearn School
+          </h1>
+          <h2 className='max-w-xl text-base leading-7 text-primary'>
+            At Relearn School, we empower young minds to excel in cutting-edge
+            technologies by equipping them with the skills and knowledge needed
+            to thrive in tomorrow&apos;s world. Join the revolution and upskill
+            your child to succeed in an ever-evolving world.
+          </h2>
 
           <div className='flex gap-2 mt-6'>
             <button className='btn-custom btn-custom-main'>

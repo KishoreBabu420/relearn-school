@@ -26,21 +26,24 @@ const CoursesSection = () => {
     >
       <div className='mx-auto section'>
         <div className='mb-[8rem] text-center'>
-          <h2 className='mb-4 text-2xl font-bold sm:text-3xl text-primary'>
-            Our Top <span className='text-accent'>Courses</span>
+          <h2 className='mb-5 text-2xl font-bold md:text-4xl text-primary'>
+            Explore Our Exciting Courses
           </h2>
-          <p className='text-xl text-primary leading-7 max-w-[875px] mx-auto '>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            tempora illo laborum ex cupiditate tenetur doloribus non velit atque
-            amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
-            sit! Lorem ipsum dolor sit amet.
+          <p className='mx-auto text-base leading-7 text-primary '>
+            Our comprehensive range of courses introduces children to the world
+            of robotics and coding in a fun and interactive way. Whether they
+            are beginners or have some prior experience, our expert instructors
+            guide students through progressive lessons that encourage
+            exploration, innovation, and teamwork. From building robots to
+            programming games, our courses offer a wide variety of exciting
+            projects to challenge and inspire young minds.
           </p>
         </div>
         <motion.div
           variants={container}
           initial='hidden'
           whileInView='visible'
-          className='grid gap-8 mt-[8rem] md:grid-cols-3 sm:grid-cols-1'
+          className='grid gap-8 mt-[8rem] grid-cols-1 md:grid-cols-3 place-content-stretch mx-auto'
         >
           {categories.map((category) => {
             return (
