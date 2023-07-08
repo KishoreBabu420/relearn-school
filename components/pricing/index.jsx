@@ -12,8 +12,8 @@ const Pricing = () => {
         </h2>
 
         <p className='text-xl text-primary leading-7 max-w-[875px] mx-auto mb-3 text-center '>
-          Choose an affordable plan that’s packed with the best features for
-          engaging your audience, creating customer loyalty, and driving sales.
+          Unlock a world of knowledge at affordable prices with relearning.
+          Access high-quality courses and resources without breaking the bank.
         </p>
 
         <div className='my-4'>
@@ -34,7 +34,7 @@ const Pricing = () => {
                 className={`relative flex-1 text-base font-bold h-8 rounded-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 transition-colors duration-150 ease-in-out text-primary`}
                 onClick={() => setYearly(true)}
               >
-                Yearly{' '}
+                Pay Full{' '}
                 <span
                   className={`${yearly ? 'text-success' : 'text-secondary'}`}
                 >
@@ -59,9 +59,9 @@ const Pricing = () => {
                     Essential
                   </div>
                   <div className='inline-flex items-baseline mb-2'>
-                    <span className='text-3xl font-bold text-secondary'>$</span>
+                    <span className='text-3xl font-bold text-secondary'>₹</span>
                     <span className='text-4xl font-bold text-secondary'>
-                      {yearly ? '29' : '35'}
+                      {yearly ? '4480' : '5600'}
                     </span>
                     <span className='font-medium text-secondary opacity-70'>
                       /mo
@@ -139,10 +139,10 @@ const Pricing = () => {
                   </div>
                   <div className='inline-flex items-baseline mb-2'>
                     <span className='text-3xl font-bold text-slate-900 dark:text-slate-200'>
-                      $
+                      ₹
                     </span>
                     <span className='text-4xl font-bold text-slate-900 dark:text-slate-200'>
-                      {yearly ? '49' : '55'}
+                      {yearly ? '3840' : '4800'}
                     </span>
                     <span className='font-medium text-slate-500'>/mo</span>
                   </div>
@@ -223,10 +223,10 @@ const Pricing = () => {
                   </div>
                   <div className='inline-flex items-baseline mb-2'>
                     <span className='text-3xl font-bold text-slate-900 dark:text-slate-200'>
-                      $
+                      ₹
                     </span>
                     <span className='text-4xl font-bold text-slate-900 dark:text-slate-200'>
-                      {yearly ? '79' : '85'}
+                      {yearly ? '3200' : '4000'}
                     </span>
                     <span className='font-medium text-slate-500'>/mo</span>
                   </div>

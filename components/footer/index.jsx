@@ -6,6 +6,7 @@ import {
   BsPinterest,
 } from 'react-icons/bs';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -17,65 +18,74 @@ const Footer = () => {
     >
       <div className='grid grid-cols-1 gap-8 text-white md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 place-items-start'>
         <div>
-          <div className='mb-6 font-bold'>Get Started</div>
+          <div className='mb-6 font-bold'>
+            <a href='/'>
+              <Image
+                src='/assets/images/logo.webp'
+                alt='relearn school logo'
+                width={120}
+                height={0}
+                priority
+              />
+            </a>
+          </div>
           <p className='text-sm leading-7'>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque
             saepe cumque. Veritatis sunt commodi
           </p>
         </div>
         <div>
-          <div className='mb-6 font-bold'>Services</div>
+          <div className='mb-6 font-bold'>Courses</div>
           <div className='flex flex-col gap-4'>
             <a
-              href=''
+              href='/robotics'
               className='text-sm hover:underline'
             >
-              Web Design
+              Robotics
             </a>
             <a
-              href=''
+              href='/coding'
               className='text-sm hover:underline'
             >
-              Web Development
+              Coding
             </a>
             <a
-              href=''
+              href='/mathematics'
               className='text-sm hover:underline'
             >
-              {' '}
+              Mathematics
+            </a>
+            <a
+              href='science'
+              className='text-sm hover:underline'
+            >
               Science
-            </a>
-            <a
-              href=''
-              className='text-sm hover:underline'
-            >
-              Digital Marketing
             </a>
           </div>
         </div>
         <div>
-          <div className='mb-6 font-bold'>Company</div>
+          <div className='mb-6 font-bold'>Other Links</div>
           <div className='flex flex-col gap-4'>
             <a
-              href=''
+              href='/privacy-policy'
               className='text-sm hover:underline'
             >
               Privacy Policy
             </a>
             <a
-              href=''
+              href='/sitemap'
               className='text-sm hover:underline'
             >
               Sitemap
             </a>
             <a
-              href=''
+              href='/careers'
               className='text-sm hover:underline'
             >
               Careers
             </a>
             <a
-              href=''
+              href='/terms-and-conditions'
               className='text-sm hover:underline'
             >
               Terms & Conditions
@@ -88,26 +98,34 @@ const Footer = () => {
           <div className='text-sm'>+959883271929</div>
           <div className='flex gap-4 mt-4'>
             <a
-              href=''
+              href='https://www.instagram.com/relearn.school/'
               className='text-xl hover:scale-110'
+              target='_blank'
+              rel='noreferrer'
             >
               <BsFacebook />
             </a>
             <a
-              href=''
+              href='https://www.facebook.com/profile.php?id=100094293221834'
               className='text-xl hover:scale-110'
+              target='_blank'
+              rel='noreferrer'
             >
               <BsInstagram />
             </a>
             <a
-              href=''
+              href='https://www.facebook.com/profile.php?id=100094293221834'
               className='text-xl hover:scale-110'
+              target='_blank'
+              rel='noreferrer'
             >
               <BsTwitter />
             </a>
             <a
-              href=''
+              href='https://www.facebook.com/profile.php?id=100094293221834'
               className='text-xl hover:scale-110'
+              target='_blank'
+              rel='noreferrer'
             >
               <BsPinterest />
             </a>
