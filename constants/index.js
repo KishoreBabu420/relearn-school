@@ -90,6 +90,47 @@ export const courses = [
   },
 ];
 
+export const roboticsPricing = [
+  {
+    type: 'Starter',
+    perClassPrice: 700,
+    duration: 3,
+    includes: [
+      'Unlimited placeholder texts',
+      'Consectetur adipiscing elit',
+      'Excepteur sint occaecat cupidatat',
+      'Officia deserunt mollit anim',
+    ],
+    paymentLink: 'https://www.relernschool.in',
+  },
+
+  {
+    type: 'Achiever',
+    perClassPrice: 600,
+    duration: 6,
+    includes: [
+      'Unlimited placeholder texts',
+      'Consectetur adipiscing elit',
+      'Excepteur sint occaecat cupidatat',
+      'Officia deserunt mollit anim',
+    ],
+    paymentLink: 'https://www.relernschool.in',
+  },
+
+  {
+    type: 'Master',
+    perClassPrice: 500,
+    duration: 12,
+    includes: [
+      'Unlimited placeholder texts',
+      'Consectetur adipiscing elit',
+      'Excepteur sint occaecat cupidatat',
+      'Officia deserunt mollit anim',
+    ],
+    paymentLink: 'https://www.relernschool.in',
+  },
+];
+
 export const accordions = [
   {
     id: 1,
