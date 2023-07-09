@@ -1,10 +1,5 @@
 'use client';
-import {
-  BsFacebook,
-  BsInstagram,
-  BsTwitter,
-  BsPinterest,
-} from 'react-icons/bs';
+import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -13,10 +8,10 @@ const Footer = () => {
     <motion.footer
       initial={{ height: 0 }}
       whileInView={{ height: 'auto' }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 0.5 }}
       className='p-10 bg-primary '
     >
-      <div className='grid grid-cols-1 gap-8 text-white md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 place-items-start'>
+      <footer className='grid grid-cols-1 gap-8 text-white md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 place-items-start pb-7'>
         <div>
           <div className='mb-6 font-bold'>
             <a href='/'>
@@ -98,7 +93,7 @@ const Footer = () => {
           <div className='text-sm'>+959883271929</div>
           <div className='flex gap-4 mt-4'>
             <a
-              href='https://www.instagram.com/relearn.school/'
+              href='https://www.facebook.com/profile.php?id=100094293221834'
               className='text-xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
@@ -106,7 +101,7 @@ const Footer = () => {
               <BsFacebook />
             </a>
             <a
-              href='https://www.facebook.com/profile.php?id=100094293221834'
+              href='https://www.instagram.com/relearn.school/'
               className='text-xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
@@ -114,7 +109,7 @@ const Footer = () => {
               <BsInstagram />
             </a>
             <a
-              href='https://www.facebook.com/profile.php?id=100094293221834'
+              href='https://twitter.com/Relearn_School'
               className='text-xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
@@ -122,16 +117,16 @@ const Footer = () => {
               <BsTwitter />
             </a>
             <a
-              href='https://www.facebook.com/profile.php?id=100094293221834'
+              href='https://www.youtube.com/channel/UCgM7A1X40ZJVTfsuSnHLuQg'
               className='text-xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
             >
-              <BsPinterest />
+              <BsYoutube />
             </a>
           </div>
         </div>
-      </div>
+      </footer>
     </motion.footer>
   );
 };

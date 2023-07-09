@@ -13,7 +13,7 @@ const Categories = ({ image, category, description }) => {
     visible: { y: 0, opacity: 1 },
   };
   return (
-    <article className='flex flex-col items-center gap-4 p-8 bg-white border-2 border-solid rounded-md border-accent'>
+    <article className='flex flex-col items-center gap-4 p-8 bg-white border-2 border-solid rounded-md border-accent mt-[5rem] md:mt-[2rem]'>
       <div className='w-48 h-48 -mt-[8rem] relative'>
         <Image
           src={image}
@@ -32,7 +32,7 @@ const Categories = ({ image, category, description }) => {
         href='/'
         className='flex items-center self-start justify-center gap-2 text-secondary btn-custom btn-custom-secondary group'
       >
-        View More{' '}
+        View More{'  '}
         <BsFillArrowRightCircleFill className='invisible transition-all duration-500 ease-in-out -translate-x-4 group-hover:visible group-hover:translate-x-0' />
       </Link>
     </article>

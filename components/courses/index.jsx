@@ -43,7 +43,7 @@ const CoursesSection = () => {
           variants={container}
           initial='hidden'
           whileInView='visible'
-          className='grid gap-8 mt-[8rem] grid-cols-1 md:grid-cols-3 place-content-stretch mx-auto'
+          className='grid grid-cols-1 gap-8 mx-auto md:grid-cols-3 place-content-stretch'
         >
           {categories.map((category) => {
             return (
