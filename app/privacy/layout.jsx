@@ -1,14 +1,12 @@
-import '@styles/globals.css';
-
 import { Navbar, Footer } from '@components';
 
 export const metadata = {
-  title: 'Relearn School - Empowering Young Minds',
+  title: 'Privacy Policy of Relearn School',
   description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Join the revolution and upskill your child to succeed in an ever-evolving world.
 `,
 };
 
-const RootLayout = ({ children }) => {
+const TermsLayout = ({ children }) => {
   return (
     <html lang='en'>
       <head>
@@ -18,9 +16,13 @@ const RootLayout = ({ children }) => {
           sizes='any'
         />
       </head>
-      <body className='bg-solitude font-Poppins'>{children}</body>
+      <body className='bg-solitude font-Poppins'>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 };
 
-export default RootLayout;
+export default TermsLayout;
