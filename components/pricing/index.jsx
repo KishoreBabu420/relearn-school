@@ -46,7 +46,7 @@ const Pricing = () => {
                 </span>
               </button>
               <button
-                className={`relative flex-1 text-base font-bold h-8 rounded-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300 dark:focus-visible:ring-slate-600 transition-colors duration-150 ease-in-out text-primary`}
+                className={`relative flex-1 text-base font-bold h-8 rounded-full focus-visible:outline-none focus-visible:ring focus-visible:ring-indigo-300  transition-colors duration-150 ease-in-out text-primary`}
                 onClick={() => setYearly(false)}
               >
                 Monthly

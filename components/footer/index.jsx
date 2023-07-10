@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='mb-6 font-bold'>
               <a href='/'>
                 <Image
-                  src='/assets/images/logo.webp'
+                  src='/assets/images/logo_white.png'
                   alt='relearn school logo'
                   width={120}
                   height={0}

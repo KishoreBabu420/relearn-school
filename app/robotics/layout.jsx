@@ -1,12 +1,12 @@
 import { Navbar, Footer } from '@components';
 
 export const metadata = {
-  title: 'Privacy Policy of Relearn School',
+  title: 'Relearn School - Robotics and Artificial Intelligence',
   description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Join the revolution and upskill your child to succeed in an ever-evolving world.
 `,
 };
 
-const PrivacyLayout = ({ children }) => {
+const RoboticsLayout = ({ children }) => {
   return (
     <html lang='en'>
       <head>
@@ -25,4 +25,4 @@ const PrivacyLayout = ({ children }) => {
   );
 };
 
-export default PrivacyLayout;
+export default RoboticsLayout;

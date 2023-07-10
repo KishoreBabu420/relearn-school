@@ -1,4 +1,4 @@
-const Terms = () => {
+const Privacy = () => {
   return (
     <>
       <header className='h-[20rem] w-[100%] flex items-center justify-start bg-gradient-to-r from-blue-950 to-blue-900 mt-12'>
@@ -279,4 +279,4 @@ const Terms = () => {
   );
 };
 
-export default Terms;
+export default Privacy;
