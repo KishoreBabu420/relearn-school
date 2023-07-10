@@ -95,12 +95,12 @@ const Footer = () => {
             <div className='mb-6 font-bold'>Reach to us</div>
             <div className='mb-4 '>
               <a
-                href='tel:+91 7780537400'
+                href='tel:+91 9360136400'
                 className='flex items-center gap-2 text-base hover:underline'
                 target='_blank'
                 rel='noreferrer'
               >
-                <MdPermPhoneMsg /> +91 7780537400
+                <MdPermPhoneMsg /> +91 9360136400
               </a>
             </div>
             <div className='text-sm'>

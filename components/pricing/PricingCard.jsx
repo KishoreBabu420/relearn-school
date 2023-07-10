@@ -34,6 +34,9 @@ const PricingCard = ({
             </span>
             <sub className='font-medium text-secondary opacity-70'>/mo</sub>
           </div>
+          <div className='flex items-center justify-center p-3 mx-auto my-4 font-bold text-center badge badge-info text-primary'>
+            {`${duration} months - ${duration * 8} classes`}
+          </div>
           <hr className='my-4 border-secondary opacity-20' />
           <div className='mb-3 font-semibold text-secondary'>
             Curriculum Includes:
