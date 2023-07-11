@@ -8,7 +8,7 @@ const Robotics = () => {
         <p className='flex justify-center w-48 px-5 py-2 mx-auto text-lg font-medium uppercase bg-primary text-secondary rounded-3xl md:mx-0'>
           Coming Soon
         </p>
-        <h1 className='text-6xl font-bold leading-[5rem] text-primary my-4'>
+        <h1 className='text-4xl md:text-6xl font-bold leading-[5rem] text-primary my-4'>
           Get Notified <br /> When we Launch
         </h1>
         <p className='my-4 text-base'>Don&apos;t Worry we will not spam you.</p>

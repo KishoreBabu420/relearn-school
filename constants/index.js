@@ -1,18 +1,18 @@
 export const navLinks = [
   {
     id: 1,
-    href: 'courses',
-    link: 'Courses',
+    href: 'robotics',
+    link: 'Robotics',
   },
   {
     id: 2,
-    href: 'teacher',
-    link: 'Teacher',
+    href: 'coding',
+    link: 'Coding',
   },
   {
     id: 3,
-    href: 'about',
-    link: 'About',
+    href: 'maths',
+    link: 'Mathematics',
   },
 ];
 
