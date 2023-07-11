@@ -58,7 +58,7 @@ const Footer = () => {
               Privacy Policy
             </a>
             <a
-              href='/sitemap'
+              href='/sitemap.xml'
               className='text-sm hover:underline'
             >
               Sitemap
