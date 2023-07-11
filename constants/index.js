@@ -19,20 +19,20 @@ export const navLinks = [
 export const categories = [
   {
     id: 1,
-    image: '/assets/images/robotics.png',
+    image: '/assets/images/robotics.webp',
     category: 'Robotics',
     description: `Children learn about engineering, technology, and programming while exploring the world of robots. Building their own robots through practical activities, sharpening their analytical and problem-solving skills.`,
   },
   {
     id: 2,
-    image: '/assets/images/coding.png',
+    image: '/assets/images/coding.webp',
     category: 'Coding',
     description:
       'Re-Learn teaches Coding for Kids and introduces children to computer programming, teaching them the basics of coding through interactive activities and projects that foster creativity and problem-solving skills.',
   },
   {
     id: 3,
-    image: '/assets/images/mathematics.png',
+    image: '/assets/images/maths.webp',
     category: 'Mathematics',
     description:
       'Mathematics is an important life skill which helps children in developing their cognitive abilities. We teach children mental shortcuts and calculation techniques to solve mathematical problems quickly and effectively.',
