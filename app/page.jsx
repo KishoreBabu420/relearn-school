@@ -5,8 +5,7 @@ import {
   Mission,
   About,
   CoursesSection,
-  Faq,
-  Pricing,
+  CtaSection,
   Contact,
   Navbar,
   Footer,
@@ -21,8 +20,8 @@ const Home = () => {
       <Mission />
       <CoursesSection />
       <About />
-      <Pricing />
-      <Faq />
+      <CtaSection />
+
       <Contact />
       <Footer />
     </Fragment>

@@ -1,76 +1,138 @@
-import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
-
 import Image from 'next/image';
+import { Pricing, CtaSection } from '@components';
 const Robotics = () => {
   return (
-    <main className='container flex flex-col items-center justify-center gap-5 p-4 py-8 mx-auto mt-24 md:flex-row md:justify-around'>
-      <article className='flex flex-col gap-3 text-center md:text-start'>
-        <p className='flex justify-center w-48 px-5 py-2 mx-auto text-lg font-medium uppercase bg-primary text-secondary rounded-3xl md:mx-0'>
-          Coming Soon
-        </p>
-        <h1 className='text-6xl font-bold leading-[5rem] text-primary my-4'>
-          Get Notified <br /> When we Launch
-        </h1>
-        <p className='my-4 text-base'>Don&apos;t Worry we will not spam you.</p>
-        <form className='flex'>
-          <input
-            type='email'
-            className='px-6 py-3 border border-gray-200 rounded-l shadow-sm focus:outline-none focus:shadow-xl'
-            name='email'
-            placeholder='Enter Email address'
-          />
-          <button
-            type='submit'
-            className='px-6 py-3 font-medium transition duration-300 ease-in-out rounded-r shadow-xl hover:bg-gradient-to-l hover:px-8 bg-gradient-to-r from-blue-950 to-blue-900 text-secondary'
-          >
-            Notify Me
-          </button>
-        </form>
-        <div className='flex justify-center gap-5 my-6 md:justify-start text-primary'>
-          <a
-            href='https://www.facebook.com/profile.php?id=100094293221834'
-            className='text-3xl transition-all duration-300 ease-out rounded-xl hover:scale-110'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <BsFacebook />
-          </a>
-          <a
-            href='https://www.instagram.com/relearn.school/'
-            className='text-3xl transition-all duration-300 ease-out rounded-xl hover:scale-110'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <BsInstagram />
-          </a>
-          <a
-            href='https://twitter.com/Relearn_School'
-            className='text-3xl transition-all duration-300 ease-out rounded-xl hover:scale-110'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <BsTwitter />
-          </a>
-          <a
-            href='https://www.youtube.com/channel/UCgM7A1X40ZJVTfsuSnHLuQg'
-            className='text-3xl transition-all duration-300 ease-out rounded-xl hover:scale-110'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <BsYoutube />
-          </a>
-        </div>
-      </article>
+    <>
+      <main className='container flex flex-col items-center justify-center gap-5 p-4 py-6 mx-auto mt-20 md:flex-row md:justify-around'>
+        <article className='flex flex-col gap-3 text-center md:text-start'>
+          <span className='px-4 py-2 mb-4 text-xl font-black text-center rounded-lg w-36 text-accent bg-primary'>
+            Robotics
+          </span>
+          <h1 className='my-4 text-3xl font-black md:text-5xl md:leading-[4rem] text-primary'>
+            ReLearn School <br /> Robotics Junior
+          </h1>
+          <p className='my-4 text-xl font-bold text-primary'>
+            Ages 6 - 8 &nbsp; | &nbsp; 2 Days a Week &nbsp; | &nbsp; 12 Months
+            &nbsp;
+          </p>
+          <div className='flex gap-2 mt-6'>
+            <button className='btn-custom btn-custom-main'>Contact Us</button>
+          </div>
+        </article>
 
-      <article className='flex flex-col'>
-        <Image
-          src='./assets/images/coming_soon.svg'
-          alt='waiting for mathematics'
-          width={600}
-          height={600}
-        />
-      </article>
-    </main>
+        <article className='flex flex-col'>
+          <Image
+            src='./assets/images/coming_soon.svg'
+            alt='waiting for mathematics'
+            width={500}
+            height={500}
+          />
+        </article>
+      </main>
+
+      <section
+        className=' bg-info'
+        id='mission'
+      >
+        <div className='section'>
+          <h2 className='mb-5 text-2xl font-bold text-center md:leading-[4rem] md:text-4xl text-primary'>
+            Explore our Robotics <br /> Junior Curriculum
+          </h2>
+          <article className='grid gap-8 md:grid-cols-2 place-items-center'>
+            <div>
+              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
+                Electrify Your Curiosity: Discover the Wonders of Basic
+                Electronics!
+              </h3>
+              <p className='mb-4 text-base leading-7 text-primary'>
+                Spark your interest in circuits, resistors, LEDs, and more! Join
+                our immersive Basic Electronics sessions to unveil the secrets
+                of electricity, dive into circuitry, and develop essential
+                soldering skills. Unleash your potential as you explore power
+                sources, decipher voltage, and delve into the captivating realm
+                of motors and motor control. Get ready to illuminate your path
+                to robotics mastery!
+              </p>
+            </div>
+            <div>
+              <Image
+                src='/assets/images/mission.webp'
+                alt='hero'
+                width={616}
+                height={0}
+              />
+            </div>
+          </article>
+          <article className='grid gap-8 md:grid-cols-2 place-items-center'>
+            <div>
+              <Image
+                src='/assets/images/mission.webp'
+                alt='hero'
+                width={616}
+                height={0}
+              />
+            </div>
+            <div>
+              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
+                Master the Mechanics: Unleash the Power of Robotics Structures!
+              </h3>
+              <p className='mb-4 text-base leading-7 text-primary'>
+                Discover the building blocks of robotics as you unravel the
+                secrets of mechanical systems and principles. Dive into a world
+                of gears, pulleys, and levers, and witness the magic of simple
+                mechanisms and linkages come to life. Embark on an exciting
+                journey of creation as you learn the art of 3D modeling and
+                printing, unlocking endless possibilities to design and
+                fabricate robot parts. Get ready to engineer the future, one
+                gear at a time!
+              </p>
+            </div>
+          </article>
+          <article className='grid gap-8 md:grid-cols-2 place-items-center'>
+            <div>
+              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
+                Unleash the Power of Perception: Exploring Sensors and Actuators
+                in Robotics!
+              </h3>
+              <p className='mb-4 text-base leading-7 text-primary'>
+                Embark on a sensorial adventure as you dive into the realm of
+                robotics perception. Discover the fascinating world of light,
+                touch, sound, and distance sensors, and unlock the potential to
+                interface them with micro controllers. Unleash the power of
+                control as you delve into motors, servos, and solenoids,
+                breathing life into your robotic creations. Witness the magic of
+                sensor fusion and integration as your robots gain enhanced
+                perception and interact with the world around them. Get ready to
+                revolutionize the way your robots sense and act!
+              </p>
+            </div>
+            <div>
+              <Image
+                src='/assets/images/mission.webp'
+                alt='hero'
+                width={616}
+                height={0}
+              />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section className='section'>
+        <div className='container'>
+          <Image
+            src='/assets/images/junior-engineer.svg'
+            alt='junior engineer'
+            width={1200}
+            height={600}
+          />
+        </div>
+      </section>
+
+      <Pricing />
+
+      <CtaSection />
+    </>
   );
 };
 

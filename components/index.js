@@ -15,6 +15,8 @@ import Footer from './footer/';
 import Pricing from './pricing/';
 import Contact from './contact/form';
 
+import CtaSection from './cta';
+
 export {
   Navbar,
   Hero,
@@ -25,4 +27,5 @@ export {
   Faq,
   Footer,
   Contact,
+  CtaSection,
 };
