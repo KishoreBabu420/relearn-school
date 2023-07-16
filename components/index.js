@@ -13,7 +13,7 @@ import Faq from './faq/';
 import Footer from './footer/';
 
 import Pricing from './pricing/';
-import Contact from './contact/form';
+import Form from './contact/form';
 
 import CtaSection from './cta';
 
@@ -26,6 +26,6 @@ export {
   Pricing,
   Faq,
   Footer,
-  Contact,
+  Form,
   CtaSection,
 };

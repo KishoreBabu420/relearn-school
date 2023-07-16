@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Pricing, CtaSection } from '@components';
+import { Pricing, CtaSection, Faq } from '@components';
 const Robotics = () => {
   return (
     <>
@@ -11,12 +11,14 @@ const Robotics = () => {
           <h1 className='my-4 text-3xl font-black md:text-5xl md:leading-[4rem] text-primary'>
             ReLearn School <br /> Robotics Junior
           </h1>
-          <p className='my-4 text-xl font-bold text-primary'>
+          <p className='my-4 text-base font-bold md:text-xl text-primary'>
             Ages 6 - 8 &nbsp; | &nbsp; 2 Days a Week &nbsp; | &nbsp; 12 Months
             &nbsp;
           </p>
-          <div className='flex gap-2 mt-6'>
-            <button className='btn-custom btn-custom-main'>Contact Us</button>
+          <div className='flex gap-2 mx-auto mt-6 md:mx-0'>
+            <button className='px-5 text-xl font-bold btn-custom btn-custom-main'>
+              Contact Us
+            </button>
           </div>
         </article>
 
@@ -38,12 +40,21 @@ const Robotics = () => {
           <h2 className='mb-5 text-2xl font-bold text-center md:leading-[4rem] md:text-4xl text-primary'>
             Explore our Robotics <br /> Junior Curriculum
           </h2>
-          <article className='grid gap-8 md:grid-cols-2 place-items-center'>
+          <hr />
+          <article className='grid gap-8 my-4 md:grid-cols-2 place-items-center'>
             <div>
-              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
+              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary text-center md:text-start'>
                 Electrify Your Curiosity: Discover the Wonders of Basic
                 Electronics!
               </h3>
+              <div className='block md:hidden'>
+                <Image
+                  src='/assets/images/mission.webp'
+                  alt='hero'
+                  width={616}
+                  height={0}
+                />
+              </div>
               <p className='mb-4 text-base leading-7 text-primary'>
                 Spark your interest in circuits, resistors, LEDs, and more! Join
                 our immersive Basic Electronics sessions to unveil the secrets
@@ -54,7 +65,7 @@ const Robotics = () => {
                 to robotics mastery!
               </p>
             </div>
-            <div>
+            <div className='hidden md:block'>
               <Image
                 src='/assets/images/mission.webp'
                 alt='hero'
@@ -63,8 +74,9 @@ const Robotics = () => {
               />
             </div>
           </article>
-          <article className='grid gap-8 md:grid-cols-2 place-items-center'>
-            <div>
+          <hr />
+          <article className='grid gap-8 my-4 md:grid-cols-2 place-items-center'>
+            <div className='hidden md:block'>
               <Image
                 src='/assets/images/mission.webp'
                 alt='hero'
@@ -73,9 +85,17 @@ const Robotics = () => {
               />
             </div>
             <div>
-              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
+              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary text-center md:text-start'>
                 Master the Mechanics: Unleash the Power of Robotics Structures!
               </h3>
+              <div className='block md:hidden'>
+                <Image
+                  src='/assets/images/mission.webp'
+                  alt='hero'
+                  width={616}
+                  height={0}
+                />
+              </div>
               <p className='mb-4 text-base leading-7 text-primary'>
                 Discover the building blocks of robotics as you unravel the
                 secrets of mechanical systems and principles. Dive into a world
@@ -88,12 +108,21 @@ const Robotics = () => {
               </p>
             </div>
           </article>
-          <article className='grid gap-8 md:grid-cols-2 place-items-center'>
+          <hr />
+          <article className='grid gap-8 my-4 md:grid-cols-2 place-items-center'>
             <div>
-              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
+              <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary text-center md:text-start'>
                 Unleash the Power of Perception: Exploring Sensors and Actuators
                 in Robotics!
               </h3>
+              <div className='block md:hidden'>
+                <Image
+                  src='/assets/images/mission.webp'
+                  alt='hero'
+                  width={616}
+                  height={0}
+                />
+              </div>
               <p className='mb-4 text-base leading-7 text-primary'>
                 Embark on a sensorial adventure as you dive into the realm of
                 robotics perception. Discover the fascinating world of light,
@@ -106,7 +135,7 @@ const Robotics = () => {
                 revolutionize the way your robots sense and act!
               </p>
             </div>
-            <div>
+            <div className='hidden md:block'>
               <Image
                 src='/assets/images/mission.webp'
                 alt='hero'
@@ -118,10 +147,11 @@ const Robotics = () => {
         </div>
       </section>
 
-      <section className='section'>
-        <div className='container'>
+      <section className='w-9/12 p-5 mx-auto'>
+        <div className='container p-5'>
           <Image
             src='/assets/images/junior-engineer.svg'
+            className='mx-auto'
             alt='junior engineer'
             width={1200}
             height={600}
@@ -130,8 +160,8 @@ const Robotics = () => {
       </section>
 
       <Pricing />
-
       <CtaSection />
+      <Faq />
     </>
   );
 };

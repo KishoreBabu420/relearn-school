@@ -1,4 +1,5 @@
 'use client';
+import { useState } from 'react';
 
 import {
   Hero,
@@ -6,23 +7,30 @@ import {
   About,
   CoursesSection,
   CtaSection,
-  Contact,
+  Form,
   Navbar,
   Footer,
 } from '@components';
 import { Fragment } from 'react';
 
 const Home = () => {
+  const [isModelOpen, setIsModelOpen] = useState(false);
+
   return (
     <Fragment>
-      <Navbar />
+      <Navbar
+        isModelOpen={isModelOpen}
+        setIsModelOpen={setIsModelOpen}
+      />
       <Hero />
       <Mission />
       <CoursesSection />
       <About />
       <CtaSection />
-
-      <Contact />
+      <Form
+        isModelOpen={isModelOpen}
+        setIsModelOpen={setIsModelOpen}
+      />
       <Footer />
     </Fragment>
   );

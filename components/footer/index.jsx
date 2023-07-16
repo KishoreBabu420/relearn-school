@@ -25,6 +25,8 @@ const Footer = () => {
             school.
           </p>
         </div>
+        <hr className='block w-full mx-auto border-2 border-white md:hidden' />
+
         <div>
           <div className='mb-6 font-bold'>Courses</div>
           <div className='flex flex-col gap-4'>
@@ -48,6 +50,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <hr className='block w-full mx-auto border-2 border-white md:hidden' />
         <div>
           <div className='mb-6 font-bold'>Other Links</div>
           <div className='flex flex-col gap-4'>
@@ -77,6 +80,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <hr className='block w-full mx-auto border-2 border-white md:hidden' />
         <div>
           <div className='mb-6 font-bold'>Reach to us</div>
           <div className='mb-4 '>
@@ -99,10 +103,10 @@ const Footer = () => {
               <MdEmail /> connect@relearnschool.in
             </a>
           </div>
-          <div className='flex gap-4 mt-6'>
+          <div className='flex justify-start gap-8 px-8 mt-6 md:justify-center md:px-0'>
             <a
               href='https://www.facebook.com/profile.php?id=100094293221834'
-              className='text-xl hover:scale-110'
+              className='text-3xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
             >
@@ -110,7 +114,7 @@ const Footer = () => {
             </a>
             <a
               href='https://www.instagram.com/relearn.school/'
-              className='text-xl hover:scale-110'
+              className='text-3xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
             >
@@ -118,7 +122,7 @@ const Footer = () => {
             </a>
             <a
               href='https://twitter.com/Relearn_School'
-              className='text-xl hover:scale-110'
+              className='text-3xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
             >
@@ -126,7 +130,7 @@ const Footer = () => {
             </a>
             <a
               href='https://www.youtube.com/channel/UCgM7A1X40ZJVTfsuSnHLuQg'
-              className='text-xl hover:scale-110'
+              className='text-3xl hover:scale-110'
               target='_blank'
               rel='noreferrer'
             >
@@ -135,6 +139,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <hr className='block w-full mx-auto border-2 border-white md:hidden' />
+
       <div className='mt-10 text-center'>
         <p className='text-secondary'>
           &copy;2023 <strong>Relearn School Coimbatore,</strong> All Rights

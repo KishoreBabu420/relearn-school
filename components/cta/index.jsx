@@ -2,96 +2,98 @@ import Image from 'next/image';
 
 const CtaSection = () => {
   return (
-    <section className='px-12 py-8 bg-secondary'>
-      <div className='rounded-xl section bg-primary'>
-        <div class='flex items-center gap-8 justify-between'>
+    <section className='p-8 md:p-12 bg-secondary'>
+      <div className='rounded-xl section bg-primary min-h-[20vh]'>
+        <div className='flex flex-col md:flex-row items-center gap-8 justify-center '>
           <Image
             src='/assets/images/mission.webp'
             alt='check image'
-            width={800}
+            width={525}
             height={300}
           />
-          <div class='flex flex-col gap-8'>
-            <h2 class='text-secondary font-bold text-4xl'>Contact our team</h2>
-            <p class='text-secondary font-medium text-lg'>
+          <div className='flex flex-col gap-8'>
+            <h2 className='text-secondary font-bold text-2xl md:text-4xl text-center md:text-start '>
+              Contact our team
+            </h2>
+            <p className='text-secondary font-medium md-text-base text-lg text-center md:text-start'>
               Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
               magnam voluptatum cupiditate veritatis in accusamus quisquam.
             </p>
             <ul
               role='list'
-              class='grid grid-cols-2 leading-5 text-secondary gap-5 '
+              className='grid grid-cols-2 leading-5 text-secondary gap-x-4 gap-y-8 md-text-base text-lg'
             >
-              <li class='flex items-center gap-2'>
+              <li className='flex items-center gap-2'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
                   fill='currentColor'
                   aria-hidden='true'
-                  class='h-[1.25rem] w-[1.25rem]'
+                  className='h-[1.25rem] w-[1.25rem]'
                 >
                   <path
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
-                    clip-rule='evenodd'
+                    clipRule='evenodd'
                   ></path>
                 </svg>
                 Competitive salaries
               </li>
-              <li class='flex items-center gap-2'>
+              <li className='flex items-center gap-2'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
                   fill='currentColor'
                   aria-hidden='true'
-                  class='h-[1.25rem] w-[1.25rem]'
+                  className='h-[1.25rem] w-[1.25rem]'
                 >
                   <path
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
-                    clip-rule='evenodd'
+                    clipRule='evenodd'
                   ></path>
                 </svg>
                 Competitive salaries
               </li>
-              <li class='flex items-center gap-2'>
+              <li className='flex items-center gap-2'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
                   fill='currentColor'
                   aria-hidden='true'
-                  class='h-[1.25rem] w-[1.25rem]'
+                  className='h-[1.25rem] w-[1.25rem]'
                 >
                   <path
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
-                    clip-rule='evenodd'
+                    clipRule='evenodd'
                   ></path>
                 </svg>
                 Competitive salaries
               </li>
-              <li class='flex items-center gap-2'>
+              <li className='flex items-center gap-2'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   viewBox='0 0 20 20'
                   fill='currentColor'
                   aria-hidden='true'
-                  class='h-[1.25rem] w-[1.25rem]'
+                  className='h-[1.25rem] w-[1.25rem]'
                 >
                   <path
-                    fill-rule='evenodd'
+                    fillRule='evenodd'
                     d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z'
-                    clip-rule='evenodd'
+                    clipRule='evenodd'
                   ></path>
                 </svg>
                 Competitive salaries
               </li>
             </ul>
-            <div class=''>
+            <div className='text-center md:text-start mt-5'>
               <a
                 href='#'
-                class=''
+                className='btn-custom btn-custom-dark'
               >
-                See our job postings <span aria-hidden='true'>→</span>
+                Contact Us
               </a>
             </div>
           </div>

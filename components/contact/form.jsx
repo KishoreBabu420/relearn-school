@@ -1,30 +1,34 @@
-import React from 'react';
-
-const form = () => {
+const Form = ({ isModelOpen, setIsModelOpen }) => {
   return (
     <dialog
-      className='container w-4/5 mx-auto shadow md:w-1/2 modal modal-middle'
+      className={`w-100 mx-auto modal ${isModelOpen ? 'grid' : 'hidden'}`}
       id='contactForm'
+      open={isModelOpen}
     >
-      <div className='grid grid-cols-1'>
+      <div
+        className='absolute top-0 left-0 z-10 w-screen h-screen opacity-40 overlay bg-info'
+        onClick={() => setIsModelOpen(false)}
+      ></div>
+      <div className='relative grid grid-cols-1 shadow-lg z-[100]'>
+        <button
+          className='absolute btn btn-sm btn-circle btn-primary text-secondary right-2 top-2'
+          onClick={() => setIsModelOpen(false)}
+        >
+          ✕
+        </button>
         <div className='mx-auto'>
           <form action=''>
             <div className='p-6 bg-white rounded-lg'>
               <div className='session-title'>
-                <h3 className='my-3 text-2xl font-bold text-center text-accent'>
+                <h3 className='mb-5 text-2xl font-bold text-center md:text-3xl text-primary'>
                   Contact Us
                 </h3>
-                <p className='my-3 text-primary'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Pellentesque felis ex, lacinia in bibendum vitae, aliquet vel
-                  diam.
-                </p>
               </div>
               <div className='grid grid-cols-1 gap-4 mt-4 md:grid-cols-2'>
                 <div>
                   <label
                     htmlFor='first-name'
-                    className='font-bold text-primary'
+                    className='my-3 font-bold text-primary'
                   >
                     First Name
                   </label>
@@ -39,7 +43,7 @@ const form = () => {
                 <div>
                   <label
                     htmlFor='last-name'
-                    className='font-bold text-primary'
+                    className='my-3 font-bold text-primary'
                   >
                     Last Name
                   </label>
@@ -51,24 +55,11 @@ const form = () => {
                   />
                 </div>
               </div>
-              <div className='mt-4'>
-                <label
-                  htmlFor='company'
-                  className='font-bold text-primary'
-                >
-                  Company
-                </label>
-                <input
-                  id='company'
-                  type='text'
-                  placeholder='Enter Your Company Name'
-                  className='w-full p-2 border border-gray-300 rounded'
-                />
-              </div>
+
               <div className='mt-4'>
                 <label
                   htmlFor='email'
-                  className='font-bold text-primary'
+                  className='my-3 font-bold text-primary'
                 >
                   Email
                 </label>
@@ -82,7 +73,7 @@ const form = () => {
               <div className='mt-4'>
                 <label
                   htmlFor='phone'
-                  className='font-bold text-primary'
+                  className='my-3 font-bold text-primary'
                 >
                   Phone number
                 </label>
@@ -93,6 +84,12 @@ const form = () => {
                   className='w-full p-2 border border-gray-300 rounded'
                 />
               </div>
+              <label
+                className='modal-backdrop'
+                htmlFor='contactForm'
+              >
+                Close
+              </label>
               <div className='mt-4 text-center'>
                 <div className='modal-action'>
                   {/* if there is a button in form, it will close the modal */}
@@ -103,16 +100,10 @@ const form = () => {
               </div>
             </div>
           </form>
-          <form
-            method='dialog'
-            className='modal-backdrop'
-          >
-            <button>close</button>
-          </form>
         </div>
       </div>
     </dialog>
   );
 };
 
-export default form;
+export default Form;

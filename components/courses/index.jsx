@@ -26,7 +26,7 @@ const CoursesSection = () => {
     >
       <div className='mx-auto section'>
         <div className='mb-[8rem] text-center'>
-          <h2 className='mb-5 text-2xl font-bold md:text-4xl text-primary'>
+          <h2 className='mb-5 text-2xl font-bold md:text-4xl text-primary underline underline-offset-[10px]'>
             Explore Our Exciting Courses
           </h2>
           <p className='mx-auto text-base leading-7 text-primary '>

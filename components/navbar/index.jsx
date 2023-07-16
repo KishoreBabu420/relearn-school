@@ -7,7 +7,7 @@ import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 
 import { navLinks } from '@/constants';
-const Navbar = () => {
+const Navbar = ({ isModelOpen, setIsModelOpen }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className='fixed top-0 left-0 z-50 w-full shadow bg-secondary'>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </ul>
           <button
             className='btn-custom btn-custom-main'
-            onClick={() => window.contactForm.showModal()}
+            onClick={() => setIsModelOpen(true)}
           >
             Book a Free Session
           </button>

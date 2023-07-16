@@ -7,6 +7,7 @@
 body {
   min-height: 100vh;
   background-color: #f9f9f9;
+  font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -19,11 +20,15 @@ html {
   }
 
   .btn-custom {
-    @apply px-3 md:px-4 py-2 text-sm md:text-lg  font-bold border border-solid rounded-lg capitalize transition-all duration-700 ease-in-out;
+    @apply px-3 md:px-4 py-2 text-sm md:text-lg font-bold border border-solid rounded-lg capitalize transition-all duration-700 ease-in-out;
   }
 
   .btn-custom-main {
     @apply bg-accent border-accent text-primary hover:text-secondary hover:bg-primary hover:border-primary hover:-translate-y-1;
+  }
+
+  .btn-custom-dark {
+    @apply bg-accent border-accent text-primary hover:border-primary hover:-translate-y-1 px-8 text-lg;
   }
   .btn-custom-primary {
     @apply bg-primary border-primary text-secondary hover:bg-secondary hover:border-secondary hover:text-primary hover:-translate-y-1;

@@ -7,7 +7,7 @@ const About = () => {
       className=' bg-accent'
     >
       <div className='flex flex-col items-center justify-center gap-[1.5rem] section '>
-        <h2 className='mb-5 text-2xl font-bold text-center sm:text-3xl text-primary'>
+        <h2 className='mb-5 text-2xl font-bold text-center sm:text-3xl text-primary underline underline-offset-[10px]'>
           Why Choose ReLearn School for Your Child?
         </h2>
 
@@ -54,8 +54,6 @@ const About = () => {
             </div>
           </article>
         </div>
-
-        <button className='btn-custom btn-custom-primary'>Know More</button>
       </div>
     </section>
   );

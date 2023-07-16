@@ -11,7 +11,7 @@ const Pricing = () => {
   return (
     <section className='bg-info'>
       <div className='section'>
-        <h2 className='mb-5 text-2xl font-bold text-center sm:text-3xl text-primary'>
+        <h2 className='mb-5 text-2xl font-bold text-center sm:text-3xl text-primary underline underline-offset-[10px] my-5'>
           Pricing plans for all your needs
         </h2>
 

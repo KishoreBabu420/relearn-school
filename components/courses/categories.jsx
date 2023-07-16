@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
-const Categories = ({ image, category, description }) => {
+const Categories = ({ image, category, description, link }) => {
   const item = {
     hidden: { y: 20, opacity: 0 },
     visible: { y: 0, opacity: 1 },
@@ -23,13 +23,13 @@ const Categories = ({ image, category, description }) => {
           className='absolute object-cover overflow-hidden border-[5px]  border-secondary rounded-full shadow-xl top-[50%] right-[50%] h-[100%] w-auto translate-x-[50%] -translate-y-[50%]'
         />
       </div>
-      <h3 className='self-start my-4 text-2xl font-semibold text-primary'>
+      <h3 className='self-start my-4 text-2xl font-bold text-primary'>
         {category}
       </h3>
 
       <p className='text-base font-normal text-primary'>{description}</p>
       <Link
-        href='/'
+        href={link}
         className='flex items-center self-start justify-center gap-2 text-secondary btn-custom btn-custom-secondary group'
       >
         View More{'  '}

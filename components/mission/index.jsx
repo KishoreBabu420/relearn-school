@@ -5,7 +5,7 @@ const Mission = () => {
       className='section'
       id='mission'
     >
-      <h2 className='mb-5 text-2xl font-bold text-center md:text-4xl text-primary'>
+      <h2 className='mb-5 text-2xl font-bold text-center underline md:text-4xl text-primary underline-offset-[10px]'>
         Our Mission
       </h2>
       <div className='grid gap-8 md:grid-cols-2 place-items-center'>
@@ -21,7 +21,6 @@ const Mission = () => {
             projects, enabling children to explore their interests and develop
             essential skills for the digital age.
           </p>
-          <button className='btn-custom btn-custom-main'>Know More</button>
         </div>
         <div>
           <Image
