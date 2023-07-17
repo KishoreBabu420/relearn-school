@@ -3,14 +3,16 @@ import Image from 'next/image';
 const CtaSection = () => {
   return (
     <section className=' bg-secondary section'>
-      <div className='rounded-xl section bg-primary min-h-[20vh]'>
+      <div className='rounded-xl section bg-primary min-h-[30vh]'>
         <div className='flex flex-col items-center justify-center gap-8 md:flex-row '>
           <Image
-            src='/assets/images/mission.webp'
+            src='/assets/images/contact.webp'
             alt='check image'
-            width={525}
-            height={300}
+            width={616}
+            height={462}
+            style={{ width: '100%', height: 'auto' }}
           />
+
           <div className='flex flex-col gap-8'>
             <h2 className='text-2xl font-bold text-center text-secondary md:text-4xl md:text-start '>
               Contact our team

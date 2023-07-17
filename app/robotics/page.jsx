@@ -24,8 +24,8 @@ const Robotics = () => {
 
         <article className='flex flex-col'>
           <Image
-            src='./assets/images/coming_soon.svg'
-            alt='waiting for mathematics'
+            src='/assets/images/robo-hero.webp'
+            alt='Learn Robotics in Coimbatore'
             width={500}
             height={500}
           />
@@ -49,7 +49,7 @@ const Robotics = () => {
               </h3>
               <div className='block md:hidden'>
                 <Image
-                  src='/assets/images/mission.webp'
+                  src='/assets/images/robo-electronics.webp'
                   alt='hero'
                   width={616}
                   height={0}
@@ -67,7 +67,7 @@ const Robotics = () => {
             </div>
             <div className='hidden md:block'>
               <Image
-                src='/assets/images/mission.webp'
+                src='/assets/images/robo-electronics.webp'
                 alt='hero'
                 width={616}
                 height={0}
@@ -78,7 +78,7 @@ const Robotics = () => {
           <article className='grid gap-8 my-4 md:grid-cols-2 place-items-center'>
             <div className='hidden md:block'>
               <Image
-                src='/assets/images/mission.webp'
+                src='/assets/images/robo-mechanics.webp'
                 alt='hero'
                 width={616}
                 height={0}
@@ -90,7 +90,7 @@ const Robotics = () => {
               </h3>
               <div className='block md:hidden'>
                 <Image
-                  src='/assets/images/mission.webp'
+                  src='/assets/images/robo-mechanics.webp'
                   alt='hero'
                   width={616}
                   height={0}
@@ -117,7 +117,7 @@ const Robotics = () => {
               </h3>
               <div className='block md:hidden'>
                 <Image
-                  src='/assets/images/mission.webp'
+                  src='/assets/images/robo-sensors.webp'
                   alt='hero'
                   width={616}
                   height={0}
@@ -137,7 +137,7 @@ const Robotics = () => {
             </div>
             <div className='hidden md:block'>
               <Image
-                src='/assets/images/mission.webp'
+                src='/assets/images/robo-sensors.webp'
                 alt='hero'
                 width={616}
                 height={0}
@@ -150,7 +150,7 @@ const Robotics = () => {
       <section className='w-9/12 p-5 mx-auto'>
         <div className='container p-5'>
           <Image
-            src='/assets/images/junior-engineer.svg'
+            src='/assets/images/robotics-roadmap.webp'
             className='mx-auto'
             alt='junior engineer'
             width={1200}
