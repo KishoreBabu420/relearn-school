@@ -6,13 +6,13 @@ const Hero = () => {
       <div className='items-center justify-center gap-10 md:flex'>
         <div>
           <span className='px-4 py-2 mb-4 text-xl font-black rounded-lg text-accent bg-primary'>
-            Robotics & Coding
+            21<sup>st</sup> Century Skills
           </span>
 
           <h1 className='sm:text-[2rem] text-[1.75rem] font-extrabold text-primary my-4'>
             Make your Child Future Ready
             <br />
-            Learning Robotics and Coding
+            Learning 4C&apos;s
             <br />
             with ReLearn School
           </h1>

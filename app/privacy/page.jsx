@@ -19,7 +19,7 @@ const Privacy = () => {
             >
               relearnschool.in
             </a>{' '}
-            (&quot;Site&quot;) is owned and operated by K 12 Innovations Private
+            (&quot;Site&quot;) is owned and operated by Edukeys Services Private
             Limited (&quot;Relearn School&quot; or &quot;We&quot; or
             &quot;Us&quot;). We understand the importance of your trust and are
             committed to maintaining the highest standards of secure
@@ -92,7 +92,7 @@ const Privacy = () => {
             3.0 PURPOSES FOR COLLECTING PERSONAL AND SENSITIVE INFORMATION
           </h2>
           <p className='my-3 text-base font-medium text-primary'>
-            Camp K12 may use the Personal Information collected for the
+            Relearn School may use the Personal Information collected for the
             following purposes:
           </p>
           <ul className='my-3 text-base font-medium list-disc ml-7 text-primary'>

@@ -2,6 +2,7 @@ const PricingCard = ({
   type,
   perClassPrice,
   duration,
+  statement,
   includes,
   paymentLink,
   yearly,
@@ -38,28 +39,32 @@ const PricingCard = ({
             {`${duration} months - ${duration * 8} classes`}
           </div>
           <hr className='my-4 border-secondary opacity-20' />
-          <div className='mb-3 font-semibold text-secondary'>
-            Curriculum Includes:
-          </div>
-          <ul className='my-4 space-y-3 text-sm text-secondary grow'>
-            {includes.map((item, index) => {
-              return (
-                <li
-                  className='flex items-center'
-                  key={index}
-                >
-                  <svg
-                    className='w-3 h-3 mr-3 fill-success shrink-0'
-                    viewBox='0 0 12 12'
-                    xmlns='http://www.w3.org/2000/svg'
+          <article className='min-h-[18rem]'>
+            <div className='mb-3 font-semibold text-secondary'>
+              Curriculum Includes:
+            </div>
+
+            {statement && <p className='font-bold text-info'>{statement}</p>}
+            <ul className='my-4 space-y-3 text-sm text-secondary grow'>
+              {includes.map((item, index) => {
+                return (
+                  <li
+                    className='flex items-center'
+                    key={index}
                   >
-                    <path d='M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z' />
-                  </svg>
-                  <span>{item}</span>
-                </li>
-              );
-            })}
-          </ul>
+                    <svg
+                      className='w-3 h-3 mr-3 fill-success shrink-0'
+                      viewBox='0 0 12 12'
+                      xmlns='http://www.w3.org/2000/svg'
+                    >
+                      <path d='M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z' />
+                    </svg>
+                    <span>{item}</span>
+                  </li>
+                );
+              })}
+            </ul>
+          </article>
 
           <a
             className='inline-flex justify-center w-full my-4 rounded-lg whitespace-nowrap btn-custom btn-custom-secondary hover:-translate-y-2'
