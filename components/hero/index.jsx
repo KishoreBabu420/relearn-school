@@ -43,48 +43,52 @@ const Hero = () => {
           />
         </div>
       </div>
-      <p className='my-6 text-xl text-center'>
-        We are accredited and recognized by top academic and IT institutions
-      </p>
-      <div className='flex flex-wrap items-center justify-center w-4/5 gap-8 px-5 mx-auto shadow-xl rounded-xl py-7 bg-info'>
-        <div className='w-48'>
-          <Image
-            src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
-            alt='partner'
-            width={144}
-            height={0}
-            style={{ width: '100%', height: 'auto' }}
-            className='rounded-lg shadow-lg'
-          />
+      {/* <div>
+        <p className='my-6 text-xl text-center'>
+          We are accredited and recognized by top academic and IT institutions
+        </p>
+        <div className='flex flex-wrap items-center justify-center w-4/5 gap-8 px-5 mx-auto shadow-xl rounded-xl py-7 bg-info'>
+          <div className='w-48'>
+            <Image
+              src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
+              alt='partner'
+              width={144}
+              height={0}
+              style={{ width: '100%', height: 'auto' }}
+              className='rounded-lg shadow-lg'
+            />
+          </div>
+          <div className='w-48'>
+            <Image
+              src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
+              alt='partner'
+              width={144}
+              height={0}
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </div>
+          <div className='w-48'>
+            <Image
+              src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
+              alt='partner'
+              width={144}
+              height={0}
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </div>
+          <div className='w-48'>
+            <Image
+              src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
+              alt='partner'
+              width={144}
+              height={0}
+              style={{ width: '100%', height: 'auto' }}
+            />
+          </div>
         </div>
-        <div className='w-48'>
-          <Image
-            src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
-            alt='partner'
-            width={144}
-            height={0}
-            style={{ width: '100%', height: 'auto' }}
-          />
-        </div>
-        <div className='w-48'>
-          <Image
-            src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
-            alt='partner'
-            width={144}
-            height={0}
-            style={{ width: '100%', height: 'auto' }}
-          />
-        </div>
-        <div className='w-48'>
-          <Image
-            src='https://res.cloudinary.com/skill-safari/image/upload/v1683791598/nasscom_d2dfl8_hfbyq0.webp'
-            alt='partner'
-            width={144}
-            height={0}
-            style={{ width: '100%', height: 'auto' }}
-          />
-        </div>
-      </div>
+      </div> */}
+
+      <hr />
     </header>
   );
 };

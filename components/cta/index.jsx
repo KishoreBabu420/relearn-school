@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 const CtaSection = () => {
   return (
-    <section className='p-8 md:p-12 bg-secondary'>
+    <section className=' bg-secondary section'>
       <div className='rounded-xl section bg-primary min-h-[20vh]'>
-        <div className='flex flex-col md:flex-row items-center gap-8 justify-center '>
+        <div className='flex flex-col items-center justify-center gap-8 md:flex-row '>
           <Image
             src='/assets/images/mission.webp'
             alt='check image'
@@ -12,16 +12,19 @@ const CtaSection = () => {
             height={300}
           />
           <div className='flex flex-col gap-8'>
-            <h2 className='text-secondary font-bold text-2xl md:text-4xl text-center md:text-start '>
+            <h2 className='text-2xl font-bold text-center text-secondary md:text-4xl md:text-start '>
               Contact our team
             </h2>
-            <p className='text-secondary font-medium md-text-base text-lg text-center md:text-start'>
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+            <p className='text-lg font-medium text-secondary md-text-base text-start'>
+              Our comprehensive curriculum offers an immersive learning
+              experience designed to empower young minds, starting from the
+              basics and progressing to advanced concepts. Contact Us to unlock
+              your Child&apos; potential to create, innovate, and shape the
+              future of technology!
             </p>
             <ul
               role='list'
-              className='grid grid-cols-2 leading-5 text-secondary gap-x-4 gap-y-8 md-text-base text-lg'
+              className='grid grid-cols-2 text-lg leading-5 text-secondary gap-x-4 gap-y-8 md-text-base'
             >
               <li className='flex items-center gap-2'>
                 <svg
@@ -37,7 +40,7 @@ const CtaSection = () => {
                     clipRule='evenodd'
                   ></path>
                 </svg>
-                Competitive salaries
+                Comprehensive Curriculum
               </li>
               <li className='flex items-center gap-2'>
                 <svg
@@ -53,7 +56,7 @@ const CtaSection = () => {
                     clipRule='evenodd'
                   ></path>
                 </svg>
-                Competitive salaries
+                Engaging Lectures
               </li>
               <li className='flex items-center gap-2'>
                 <svg
@@ -69,7 +72,7 @@ const CtaSection = () => {
                     clipRule='evenodd'
                   ></path>
                 </svg>
-                Competitive salaries
+                Project-Based Learning
               </li>
               <li className='flex items-center gap-2'>
                 <svg
@@ -85,10 +88,10 @@ const CtaSection = () => {
                     clipRule='evenodd'
                   ></path>
                 </svg>
-                Competitive salaries
+                International Competitions
               </li>
             </ul>
-            <div className='text-center md:text-start mt-5'>
+            <div className='mt-5 text-center md:text-start'>
               <a
                 href='#'
                 className='btn-custom btn-custom-dark'
