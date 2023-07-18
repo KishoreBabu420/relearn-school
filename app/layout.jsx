@@ -4,8 +4,9 @@ import GoogleAnalytics from '@bradgarropy/next-google-analytics';
 
 export const metadata = {
   title: 'Relearn School - Empowering Young Minds',
-  description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Join the revolution and upskill your child to succeed in an ever-evolving world.
-`,
+  description: `Re-Learn School offers robotics training, coding classes, and Vedic Math programs for kids in Coimbatore. Empower your child with conceptual learning and future-ready skills. Join the revolution today!.`,
+  keywords:
+    'robotics training for kids, coding classes for children, Vedic Math courses, conceptual learning, robotics and coding education, best robotics training in Coimbatore, coding classes in India, Vedic Math programs for children, STEM education for kids, empowering young minds, future-ready skills, hands-on robotics and coding workshops, innovative learning for kids, cutting-edge technology education, skill development for children, creative problem-solving, Re-Learn School, Coimbatore, personalized attention, interactive learning experiences, robotics workshops, coding courses, Vedic Math training, conceptual education, technological advancements, educational programs, child development, STEM learning, Coimbatore education, coding skills, problem-solving abilities, critical thinking, logical reasoning, mathematical proficiency, computer programming, hands-on learning, holistic development, India education, innovative curriculum, fun learning environment',
 };
 
 const RootLayout = ({ children }) => {

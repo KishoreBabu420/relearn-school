@@ -1,9 +1,11 @@
 import { Navbar, Footer } from '@components';
 
 export const metadata = {
-  title: 'Relearn School - Robotics and Artificial Intelligence',
-  description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Join the revolution and upskill your child to succeed in an ever-evolving world.
+  title: 'Robotics Training Courses for Kids | Re-Learn School',
+  description: `Explore our comprehensive robotics training courses for kids at Re-Learn School. Our hands-on workshops and classes empower young minds to learn robotics in a fun and engaging way. Join us and give your child a head start in the world of robotics.
 `,
+  keyword:
+    ' robotics training courses, robotics classes for kids, hands-on robotics workshops, robotics education for children, robotics training programs, robotics courses for young learners, robotics curriculum, robotics learning center, robotics training institute, robotics classes in Coimbatore, best robotics courses, robotics for beginners, advanced robotics training, robotics for kids, STEM education, robotics skills, robotics programming, robotics concepts, robotics projects, robotics competitions, coding and robotics, hands-on learning, fun robotics classes, robotics for children',
 };
 
 const RoboticsLayout = ({ children }) => {
