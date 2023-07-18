@@ -23,7 +23,7 @@ const Navbar = ({ isModelOpen, setIsModelOpen }) => {
               className='w-[120px]'
             >
               <Image
-                src='/assets/images/logo.webp'
+                src='/assets/images/relearn.webp'
                 alt='relearn school logo'
                 style={{ width: '100%', height: 'auto' }}
                 width={120}
