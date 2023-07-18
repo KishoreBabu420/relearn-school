@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { Pricing, CtaSection, Faq } from '@components';
+import { roboticsAccordions } from '@/constants/';
 const Robotics = () => {
   return (
     <>
@@ -161,7 +162,7 @@ const Robotics = () => {
 
       <Pricing />
       <CtaSection />
-      <Faq />
+      <Faq accordions={roboticsAccordions} />
     </>
   );
 };

@@ -3,16 +3,16 @@
 import React, { useState } from 'react';
 import { BsFillArrowDownSquareFill } from 'react-icons/bs';
 import { motion, AnimatePresence } from 'framer-motion';
-const Accordion = ({ id, title }) => {
+const Accordion = ({ id, question, answer }) => {
   const [activeIndex, setActiveIndex] = useState(null);
   const handleClick = (id) => {
     setActiveIndex(id === activeIndex ? null : id);
   };
   return (
     <div className='pb-8'>
-      <div className='flex items-center justify-between px-4 py-3 bg-white rounded shadow'>
+      <div className='flex items-center justify-between gap-3 px-5 py-3 bg-white rounded shadow'>
         <div className='text-base font-bold sm:text-xl text-primary'>
-          {title}
+          {question}
         </div>
         <BsFillArrowDownSquareFill
           className={`${
@@ -31,11 +31,8 @@ const Accordion = ({ id, title }) => {
             style={{ overflow: 'hidden' }}
             className='p-4'
           >
-            <p className='text-base leading-7 md:text-xl text-primary'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, eum
-              beatae porro voluptatum aspernatur, id nesciunt reiciendis maxime
-              unde necessitatibus illum accusamus mollitia incidunt qui nisi
-              tempora facere magni magnam?
+            <p className='text-sm leading-7 md:text-lg text-primary'>
+              {answer}
             </p>
           </motion.div>
         )}

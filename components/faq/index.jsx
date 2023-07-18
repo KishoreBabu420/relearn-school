@@ -1,6 +1,6 @@
-import { accordions } from '@/constants/';
 import Accordion from './accordion';
-const FAQ = () => {
+const FAQ = ({ accordions }) => {
+  console.log(accordions);
   return (
     <div
       className='section'
