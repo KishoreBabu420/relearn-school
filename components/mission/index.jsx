@@ -10,6 +10,14 @@ const Mission = () => {
       </h2>
       <div className='grid gap-8 md:grid-cols-2 place-items-center'>
         <div>
+          <Image
+            src='/assets/images/mission.webp'
+            alt='hero'
+            width={616}
+            height={0}
+          />
+        </div>
+        <div>
           <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
             Empowering Young Minds Through <br /> Robotics and Coding Education
           </h3>
@@ -21,14 +29,6 @@ const Mission = () => {
             projects, enabling children to explore their interests and develop
             essential skills for the digital age.
           </p>
-        </div>
-        <div>
-          <Image
-            src='/assets/images/mission.webp'
-            alt='hero'
-            width={616}
-            height={0}
-          />
         </div>
       </div>
     </section>

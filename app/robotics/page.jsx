@@ -151,7 +151,7 @@ const Robotics = () => {
       <section className='w-9/12 p-5 mx-auto'>
         <div className='container p-5'>
           <Image
-            src='/assets/images/robotics-roadmap.webp'
+            src='/assets/images/robotics-roadmap.png'
             className='mx-auto'
             alt='junior engineer'
             width={1200}
