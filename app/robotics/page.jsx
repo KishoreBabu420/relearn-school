@@ -1,7 +1,11 @@
+'use client';
 import Image from 'next/image';
 import { Pricing, CtaSection, Faq } from '@components';
 import { roboticsAccordions } from '@/constants/';
+import { useModalGlobalContext } from '@context/modal.context';
+
 const Robotics = () => {
+  const { setIsModalOpen } = useModalGlobalContext();
   return (
     <>
       <main className='container flex flex-col items-center justify-center gap-5 p-4 py-6 mx-auto mt-20 md:flex-row md:justify-around'>
@@ -17,7 +21,10 @@ const Robotics = () => {
             &nbsp;
           </p>
           <div className='flex gap-2 mx-auto mt-6 md:mx-0'>
-            <button className='px-5 text-xl font-bold btn-custom btn-custom-main'>
+            <button
+              className='px-5 text-xl font-bold btn-custom btn-custom-main'
+              onClick={() => setIsModalOpen(true)}
+            >
               Contact Us
             </button>
           </div>

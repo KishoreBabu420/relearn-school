@@ -1,6 +1,9 @@
+'use client';
 import Image from 'next/image';
+import { useModalGlobalContext } from '@context/modal.context';
 
 const CtaSection = () => {
+  const { setIsModalOpen } = useModalGlobalContext();
   return (
     <section className=' bg-secondary section'>
       <div className='rounded-xl section bg-primary min-h-[30vh]'>
@@ -94,12 +97,12 @@ const CtaSection = () => {
               </li>
             </ul>
             <div className='mt-5 text-center md:text-start'>
-              <a
-                href='#'
+              <button
+                onClick={() => setIsModalOpen(true)}
                 className='btn-custom btn-custom-dark'
               >
                 Contact Us
-              </a>
+              </button>
             </div>
           </div>
         </div>

@@ -2,6 +2,8 @@ import '@styles/globals.css';
 import Script from 'next/script';
 import GoogleAnalytics from '@bradgarropy/next-google-analytics';
 
+import { ModalProvider } from '@context/modal.context';
+
 export const metadata = {
   title: 'Relearn School - Empowering Young Minds',
   description: `Re-Learn School offers robotics training, coding classes, and Vedic Math programs for kids in Coimbatore. Empower your child with conceptual learning and future-ready skills. Join the revolution today!.`,
@@ -48,7 +50,9 @@ const RootLayout = ({ children }) => {
           />
         </noscript>
       </head>
-      <body>{children}</body>
+      <body>
+        <ModalProvider>{children}</ModalProvider>
+      </body>
     </html>
   );
 };

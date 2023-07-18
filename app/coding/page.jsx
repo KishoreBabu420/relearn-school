@@ -1,4 +1,7 @@
+'use client';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
+
+import { Form } from '@components';
 
 import Image from 'next/image';
 const Robotics = () => {

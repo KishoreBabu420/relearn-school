@@ -1,23 +1,29 @@
-const Form = ({ isModelOpen, setIsModelOpen }) => {
+import { useModalGlobalContext } from '@context/modal.context';
+
+const Form = () => {
+  const { isModalOpen, setIsModalOpen } = useModalGlobalContext();
   return (
     <dialog
-      className={`w-100 mx-auto modal ${isModelOpen ? 'grid' : 'hidden'}`}
+      className={`w-100 mx-auto modal ${isModalOpen ? 'grid' : 'hidden'}`}
       id='contactForm'
-      open={isModelOpen}
+      open={isModalOpen}
     >
       <div
         className='absolute top-0 left-0 z-10 w-screen h-screen opacity-40 overlay bg-info'
-        onClick={() => setIsModelOpen(false)}
+        onClick={() => setIsModalOpen(false)}
       ></div>
       <div className='relative grid grid-cols-1 shadow-lg z-[100]'>
         <button
           className='absolute btn btn-sm btn-circle btn-primary text-secondary right-2 top-2'
-          onClick={() => setIsModelOpen(false)}
+          onClick={() => setIsModalOpen(false)}
         >
           ✕
         </button>
         <div className='mx-auto'>
-          <form action=''>
+          <form
+            action='https://formsubmit.co/raam.rohith@skillsafari.in'
+            method='POST'
+          >
             <div className='p-6 bg-white rounded-lg'>
               <div className='session-title'>
                 <h3 className='mb-5 text-2xl font-bold text-center md:text-3xl text-primary'>

@@ -6,9 +6,14 @@ import { HiMenuAlt1, HiX } from 'react-icons/hi';
 import MobileNavLinks from './MobileNavLinks';
 import NavLink from './NavLink';
 
+import { useModalGlobalContext } from '@context/modal.context';
+
 import { navLinks } from '@/constants';
-const Navbar = ({ isModelOpen, setIsModelOpen }) => {
+import { Form } from '@components';
+const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
+  const { setIsModalOpen } = useModalGlobalContext();
   return (
     <nav className='fixed top-0 left-0 z-50 w-full shadow bg-secondary'>
       <div>
@@ -44,7 +49,7 @@ const Navbar = ({ isModelOpen, setIsModelOpen }) => {
           </ul>
           <button
             className='btn-custom btn-custom-main'
-            onClick={() => setIsModelOpen(true)}
+            onClick={() => setIsModalOpen(true)}
           >
             Book a Free Session
           </button>
@@ -66,6 +71,7 @@ const Navbar = ({ isModelOpen, setIsModelOpen }) => {
           )}
         </div>
       </div>
+      <Form />
     </nav>
   );
 };

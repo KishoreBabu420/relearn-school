@@ -1,6 +1,9 @@
+'use client';
 import Image from 'next/image';
+import { useModalGlobalContext } from '@context/modal.context';
 
 const Hero = () => {
+  const { setIsModalOpen } = useModalGlobalContext();
   return (
     <header className='pt-[8rem] section text-primary'>
       <div className='items-center justify-center gap-10 md:flex'>
@@ -21,11 +24,11 @@ const Hero = () => {
           </h2>
 
           <div className='flex gap-2 mt-6'>
-            <button className='btn-custom btn-custom-main'>
+            <button
+              className='btn-custom btn-custom-main'
+              onClick={() => setIsModalOpen(true)}
+            >
               Book a Free Session
-            </button>
-            <button className='btn-custom btn-custom-outline'>
-              Contact Us
             </button>
           </div>
         </div>

@@ -1,3 +1,6 @@
+'use client';
+import { useModalGlobalContext } from '@context/modal.context';
+
 const PricingCard = ({
   type,
   perClassPrice,
@@ -7,6 +10,8 @@ const PricingCard = ({
   paymentLink,
   yearly,
 }) => {
+  const { setIsModalOpen } = useModalGlobalContext();
+
   const totalPrice = perClassPrice * 8;
   const discountedPrice = totalPrice * 0.8;
   return (
@@ -66,12 +71,12 @@ const PricingCard = ({
             </ul>
           </article>
 
-          <a
+          <button
             className='inline-flex justify-center w-full my-4 rounded-lg whitespace-nowrap btn-custom btn-custom-secondary hover:-translate-y-2'
-            href={paymentLink}
+            onClick={() => setIsModalOpen(true)}
           >
             Purchase Plan
-          </a>
+          </button>
 
           <p className='text-center text-secondary'>
             {yearly
