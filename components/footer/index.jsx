@@ -106,7 +106,7 @@ const Footer = () => {
           <div className='flex justify-start gap-8 px-8 mt-6 md:justify-center md:px-0'>
             <a
               href='https://www.facebook.com/profile.php?id=100094293221834'
-              className='text-3xl hover:scale-110'
+              className='text-3xl hover:scale-110 facebook'
               target='_blank'
               rel='noreferrer'
             >
@@ -114,7 +114,7 @@ const Footer = () => {
             </a>
             <a
               href='https://www.instagram.com/relearn.school/'
-              className='text-3xl hover:scale-110'
+              className='text-3xl hover:scale-110 instagram'
               target='_blank'
               rel='noreferrer'
             >
@@ -122,7 +122,7 @@ const Footer = () => {
             </a>
             <a
               href='https://twitter.com/Relearn_School'
-              className='text-3xl hover:scale-110'
+              className='text-3xl hover:scale-110 twitter'
               target='_blank'
               rel='noreferrer'
             >
@@ -130,7 +130,7 @@ const Footer = () => {
             </a>
             <a
               href='https://www.youtube.com/channel/UCgM7A1X40ZJVTfsuSnHLuQg'
-              className='text-3xl hover:scale-110'
+              className='text-3xl hover:scale-110 youtube'
               target='_blank'
               rel='noreferrer'
             >

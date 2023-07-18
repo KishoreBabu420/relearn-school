@@ -10,14 +10,14 @@ const Accordion = ({ id, question, answer }) => {
   };
   return (
     <div className='pb-8'>
-      <div className='flex items-center justify-between gap-3 px-5 py-3 bg-white rounded shadow'>
-        <div className='text-base font-bold sm:text-xl text-primary'>
+      <div className='flex items-center justify-between gap-5 p-6 bg-white rounded shadow'>
+        <h4 className='text-base font-bold sm:text-lg text-primary'>
           {question}
-        </div>
+        </h4>
         <BsFillArrowDownSquareFill
           className={`${
             id === activeIndex ? 'rotate-180' : 'rotate-0'
-          } cursor-pointer transition-all duration-300 text-base font-bold sm:text-xl text-primary`}
+          } cursor-pointer transition-all duration-300 text-lg font-bold text-primary min-w-[1.5rem]`}
           onClick={() => handleClick(id)}
         />
       </div>
@@ -29,11 +29,11 @@ const Accordion = ({ id, question, answer }) => {
             exit={{ height: 0 }}
             transition={{ duration: 0.3 }}
             style={{ overflow: 'hidden' }}
-            className='p-4'
+            className='p-5'
           >
-            <p className='text-sm leading-7 md:text-lg text-primary'>
+            <h5 className='text-sm leading-7 md:text-lg text-primary'>
               {answer}
-            </p>
+            </h5>
           </motion.div>
         )}
       </AnimatePresence>
