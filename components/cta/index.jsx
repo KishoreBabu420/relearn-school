@@ -9,7 +9,7 @@ const CtaSection = () => {
       <div className='rounded-xl section bg-primary min-h-[30vh]'>
         <div className='flex flex-col items-center justify-center gap-8 md:flex-row '>
           <Image
-            src='/assets/images/contact.webp'
+            src='/assets/images/contact.png'
             alt='check image'
             width={616}
             height={462}
