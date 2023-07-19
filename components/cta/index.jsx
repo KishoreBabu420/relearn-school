@@ -11,8 +11,8 @@ const CtaSection = () => {
           <Image
             src='/assets/images/contact.png'
             alt='check image'
-            width={616}
-            height={462}
+            width={400}
+            height={300}
             style={{ width: '100%', height: 'auto' }}
           />
 
