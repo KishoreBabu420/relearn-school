@@ -13,7 +13,7 @@ const Hero = () => {
           </span>
 
           <h1 className='sm:text-[2rem] text-[1.75rem] font-extrabold text-primary my-4'>
-            Welcome to Re-Learn School <br />
+            ReLearn School <br />
             Empowering Young Minds for the Future
           </h1>
           <h2 className='max-w-xl text-base leading-7 text-primary'>
