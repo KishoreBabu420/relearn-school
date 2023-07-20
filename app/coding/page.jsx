@@ -1,10 +1,8 @@
 'use client';
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 
-import { Form } from '@components';
-
 import Image from 'next/image';
-const Robotics = () => {
+const Coding = () => {
   return (
     <main className='container flex flex-col items-center justify-center gap-5 p-4 py-8 mx-auto mt-24 md:flex-row md:justify-around'>
       <article className='flex flex-col gap-3 text-center md:text-start'>
@@ -12,7 +10,7 @@ const Robotics = () => {
           Coming Soon
         </p>
         <h1 className='text-4xl md:text-6xl font-bold leading-[5rem] text-primary my-4'>
-          Get Notified <br /> When we Launch
+          Get Notified <br /> When we Launch our Programming Sessions
         </h1>
         <p className='my-4 text-base'>Don&apos;t Worry we will not spam you.</p>
         <form className='flex'>
@@ -77,4 +75,4 @@ const Robotics = () => {
   );
 };
 
-export default Robotics;
+export default Coding;

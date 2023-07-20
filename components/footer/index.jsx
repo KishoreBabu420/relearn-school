@@ -67,12 +67,6 @@ const Footer = () => {
               Sitemap
             </a>
             <a
-              href='/careers'
-              className='text-sm hover:underline'
-            >
-              Careers
-            </a>
-            <a
               href='/terms'
               className='text-sm hover:underline'
             >

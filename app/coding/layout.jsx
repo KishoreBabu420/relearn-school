@@ -1,9 +1,8 @@
 import { Navbar, Footer } from '@components';
 
 export const metadata = {
-  title: 'Relearn School - Robotics and Artificial Intelligence',
-  description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Join the revolution and upskill your child to succeed in an ever-evolving world.
-`,
+  title: 'Relearn School - Programming and Coding',
+  description: `Re-Learn teaches Coding for Kids and introduces children to computer programming, teaching them the basics of coding through interactive activities and projects that foster creativity and problem-solving skills.`,
 };
 
 const RoboticsLayout = ({ children }) => {
