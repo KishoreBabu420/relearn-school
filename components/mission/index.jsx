@@ -19,7 +19,7 @@ const Mission = () => {
         </div>
         <div>
           <h3 className='font-bold sm:text-[1.875rem] text-[1.5rem] mb-5 text-primary'>
-            Empowering Young Minds Through <br /> Robotics and Coding Education
+            Empowering Young Minds <br /> For the Future
           </h3>
           <p className='mb-4 text-base leading-7 text-primary'>
             We believe in the power of technology education to shape the future.
