@@ -2,7 +2,7 @@ import { Navbar, Footer } from '@components';
 
 export const metadata = {
   title: 'Relearn School - Programming and Coding',
-  description: `Re-Learn teaches Coding for Kids and introduces children to computer programming, teaching them the basics of coding through interactive activities and projects that foster creativity and problem-solving skills.`,
+  description: `Re-Learn teaches Coding for Kids and introduces children to computer programming, teaching them the basics of coding through interactive activities and projects.`,
 };
 
 const RoboticsLayout = ({ children }) => {

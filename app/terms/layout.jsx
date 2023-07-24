@@ -2,7 +2,7 @@ import { Navbar, Footer } from '@components';
 
 export const metadata = {
   title: 'Terms and Conditions of Relearn School',
-  description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Read our Terms and Conditions.
+  description: `Read Our Terms and Conditions. Stay Informed About Our Website Usage Guidelines. Know Your Rights and Responsibilities.
 `,
 };
 

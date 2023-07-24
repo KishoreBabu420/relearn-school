@@ -2,7 +2,7 @@ import { Navbar, Footer } from '@components';
 
 export const metadata = {
   title: 'Privacy Policy of Relearn School',
-  description: `At Relearn School, we empower young minds to excel in cutting-edge technologies by equipping them with the skills and knowledge needed to thrive in tomorrow's world. Read our Privacy Policy
+  description: `At Relearn School, Protecting Your Privacy is Our Priority. Learn How We Safeguard Your Data. Read Our Privacy Policy Now!
 `,
 };
 

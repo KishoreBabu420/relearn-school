@@ -2,7 +2,7 @@ import { Navbar, Footer } from '@components';
 
 export const metadata = {
   title: 'Relearn School - Mathematics and Vedic Maths',
-  description: `Mathematics is an important life skill which helps children in developing their cognitive abilities. We teach children mental shortcuts and calculation techniques to solve mathematical problems quickly and effectively.`,
+  description: `Mathematics is an important life skill which helps children in developing their cognitive abilities. We teach shortcuts and calculation techniques to solve mathematical problems quickly and effectively.`,
 };
 
 const RoboticsLayout = ({ children }) => {

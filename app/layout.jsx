@@ -42,7 +42,7 @@ const RootLayout = ({ children }) => {
         />
         <meta
           property='og:image'
-          content='https://metatags.io/images/meta-tags.png'
+          content='https://res.cloudinary.com/skill-safari/image/upload/v1690182507/relearn_OG.png'
         />
 
         {/* <!-- Twitter --> */}
@@ -64,7 +64,7 @@ const RootLayout = ({ children }) => {
         />
         <meta
           property='twitter:image'
-          content='https://metatags.io/images/meta-tags.png'
+          content='https://res.cloudinary.com/skill-safari/image/upload/v1690182507/relearn_OG.png'
         />
 
         <GoogleAnalytics measurementId='G-YMJ4SG3LRL' />
@@ -91,6 +91,7 @@ const RootLayout = ({ children }) => {
             width='1'
             src='https://www.facebook.com/tr?id=1954325961591455&ev=PageView
 &noscript=1'
+            alt='facebook'
           />
         </noscript>
       </head>
