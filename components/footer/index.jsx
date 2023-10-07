@@ -1,7 +1,11 @@
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from 'react-icons/bs';
 import { MdEmail, MdPermPhoneMsg } from 'react-icons/md';
 
+import { FaBlog } from 'react-icons/fa';
+
 import Image from 'next/image';
+
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -9,7 +13,7 @@ const Footer = () => {
       <div className='grid grid-cols-1 gap-6 my-8 md:grid-cols-4 sm:grid-cols-3 xs:grid-cols-2 place-items-start'>
         <div>
           <div className='mb-6 font-bold'>
-            <a href='/'>
+            <Link href='/'>
               <Image
                 src='/assets/images/relearn_white.webp'
                 alt='relearn school logo'
@@ -17,7 +21,7 @@ const Footer = () => {
                 height={40}
                 priority
               />
-            </a>
+            </Link>
           </div>
           <p className='text-sm leading-7'>
             Coding & Robotics classes for kids with flexible timings and
@@ -30,23 +34,30 @@ const Footer = () => {
         <div>
           <div className='mb-6 font-bold'>Courses</div>
           <div className='flex flex-col gap-4'>
-            <a
+            <Link
               href='/robotics'
               className='text-sm hover:underline'
             >
               Robotics
-            </a>
-            <a
+            </Link>
+            <Link
               href='/coding'
               className='text-sm hover:underline'
             >
               Coding
-            </a>
-            <a
+            </Link>
+            <Link
               href='/maths'
               className='text-sm hover:underline'
             >
               Mathematics
+            </Link>
+            <a
+              href='https:blog.relearnschool.in'
+              target='_blank'
+              className='text-sm hover:underline'
+            >
+              Blog
             </a>
           </div>
         </div>
@@ -54,24 +65,24 @@ const Footer = () => {
         <div>
           <div className='mb-6 font-bold'>Other Links</div>
           <div className='flex flex-col gap-4'>
-            <a
+            <Link
               href='/privacy'
               className='text-sm hover:underline'
             >
               Privacy Policy
-            </a>
-            <a
+            </Link>
+            <Link
               href='/sitemap.xml'
               className='text-sm hover:underline'
             >
               Sitemap
-            </a>
-            <a
+            </Link>
+            <Link
               href='/terms'
               className='text-sm hover:underline'
             >
               Terms & Conditions
-            </a>
+            </Link>
           </div>
         </div>
         <hr className='block w-full mx-auto border-2 border-white md:hidden' />
@@ -129,6 +140,14 @@ const Footer = () => {
               rel='noreferrer'
             >
               <BsYoutube />
+            </a>
+            <a
+              href='https://blog.relearnshool.in  '
+              className='text-3xl hover:scale-110 youtube'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <FaBlog />
             </a>
           </div>
         </div>
